@@ -1,0 +1,14 @@
+# Core Deep Learning & Computer Vision
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Web Framework & Environment
+flask>=3.0.0
+werkzeug>=3.0.0
+python-dotenv>=1.0.0
+
+# Production WSGI Servers
+waitress>=3.0.0

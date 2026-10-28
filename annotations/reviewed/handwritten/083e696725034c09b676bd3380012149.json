@@ -1,0 +1,26 @@
+{
+  "id": "083e696725034c09b676bd3380012149",
+  "source_image": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "bill_group_id": "upright_WhatsApp_Image_2026-09-17_at_4.09.23_PM_1",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    718,
+    345,
+    163,
+    32
+  ],
+  "field_name": "VILLAGE",
+  "field_key": "village",
+  "crop_path": "annotations/crops/handwritten/hw_upright_WhatsApp_Image_2026-09-17_at_4.09.23_PM_1_05_083e6967.png",
+  "text": "కడముట్ట",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 0,
+  "alignment_inliers": 5000,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 2
+}

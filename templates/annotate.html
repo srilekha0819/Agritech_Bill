@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Annotation Studio | LangBill AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Outfit:wght@500;600;700;800&family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/annotate.css">
+</head>
+<body>
+    <div class="glow-sphere glow-1" aria-hidden="true"></div>
+    <div class="glow-sphere glow-2" aria-hidden="true"></div>
+
+    <div class="app-container annotation-studio">
+        <!-- Top Navbar -->
+        <header class="navbar">
+            <div class="brand">
+                <div class="logo-icon" aria-hidden="true">🎯</div>
+                <div>
+                    <h1 class="brand-title">Precision <span class="gradient-text">Annotation Studio</span></h1>
+                    <p class="brand-subtitle">High-Accuracy Ground-Truth & Auto-Cropping Alignment Reference</p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a class="btn-small" href="/review-crops" title="Review crop pipeline">🔍 Review Crops</a>
+                <a class="btn-small btn-outline" href="/" title="Back to document processing">📄 Process Documents</a>
+            </div>
+        </header>
+
+        <!-- Main Studio Workspace -->
+        <main class="studio-layout">
+            <!-- Command Toolbar -->
+            <section class="studio-toolbar glass-card" aria-label="Annotation controls">
+                <!-- Source selection -->
+                <div class="toolbar-group">
+                    <span class="group-label">Image Source</span>
+                    <div class="btn-cluster">
+                        <label class="btn-tool file-btn" title="Upload an image from your computer">
+                            <span>📁 Upload Image</span>
+                            <input id="image-input" type="file" accept="image/*">
+                        </label>
+                        <button class="btn-tool" id="btn-gallery-pick" type="button" title="Select an existing bill from the 32 uploaded files">
+                            <span>📂 Existing Bills (<span id="existing-count">32</span>)</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Orientation & Adjustments -->
+                <div class="toolbar-group">
+                    <span class="group-label">Orientation & Alignment</span>
+                    <div class="btn-cluster">
+                        <button class="btn-tool" id="btn-rotate-ccw" type="button" title="Rotate 90° Counter-Clockwise (Ctrl+[)">
+                            <span>↺ 90°</span>
+                        </button>
+                        <button class="btn-tool" id="btn-rotate-cw" type="button" title="Rotate 90° Clockwise (Ctrl+])">
+                            <span>↻ 90°</span>
+                        </button>
+                        <button class="btn-tool" id="btn-rotate-180" type="button" title="Rotate 180° Upside-Down">
+                            <span>⟲ 180°</span>
+                        </button>
+                        <span id="rotation-badge" class="badge-pill">0°</span>
+                    </div>
+                </div>
+
+                <!-- Viewport & Zoom -->
+                <div class="toolbar-group">
+                    <span class="group-label">View & Zoom</span>
+                    <div class="btn-cluster">
+                        <button class="btn-tool active" id="btn-tool-draw" type="button" title="Box Draw Mode (B)">
+                            <span>✏️ Draw</span>
+                        </button>
+                        <button class="btn-tool" id="btn-tool-pan" type="button" title="Pan Mode (Hand / Space+Drag)">
+                            <span>✋ Pan</span>
+                        </button>
+                        <button class="btn-tool" id="btn-zoom-out" type="button" title="Zoom Out (-)">
+                            <span>−</span>
+                        </button>
+                        <span id="zoom-readout" class="badge-pill">100%</span>
+                        <button class="btn-tool" id="btn-zoom-in" type="button" title="Zoom In (+)">
+                            <span>+</span>
+                        </button>
+                        <button class="btn-tool" id="btn-zoom-fit" type="button" title="Fit to Screen">
+                            <span>Fit</span>
+                        </button>
+                        <button class="btn-tool" id="btn-zoom-reset" type="button" title="Reset Zoom to 100%">
+                            <span>1:1</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Precision Helpers -->
+                <div class="toolbar-group">
+                    <span class="group-label">Precision Tools</span>
+                    <div class="btn-cluster">
+                        <button class="btn-tool" id="btn-tighten-ink" type="button" title="Snap active box tightly to ink bounds" disabled>
+                            <span>✂️ Tighten to Ink</span>
+                        </button>
+                        <button class="btn-tool" id="btn-contrast-boost" type="button" title="Toggle high-contrast ink boost for faint handwriting">
+                            <span>🔆 Ink Boost</span>
+                        </button>
+                        <button class="btn-tool" id="apply-layout" type="button" title="Apply saved canonical crop template" disabled>
+                            <span>📋 Apply Layout</span>
+                        </button>
+                        <button class="btn-tool btn-danger-tool" id="btn-delete-crop" type="button" title="Delete selected box (Del / Backspace)" disabled>
+                            <span>🗑️ Delete</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bill Meta Readout -->
+                <div class="toolbar-group toolbar-meta">
+                    <span class="group-label">Document Info</span>
+                    <div class="meta-row">
+                        <span id="image-dimensions" class="meta-tag">No bill loaded</span>
+                        <span id="crops-summary-badge" class="badge-pill badge-cyan">0 crops</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main Work Area (Canvas + Sidebar) -->
+            <div class="studio-workspace">
+                <!-- Canvas Viewport Panel -->
+                <section class="canvas-panel glass-card">
+                    <div class="viewport-header">
+                        <div class="viewport-title-group">
+                            <span class="status-indicator live"></span>
+                            <span class="viewport-filename" id="current-filename-display">No image selected</span>
+                        </div>
+                        <div class="viewport-hud">
+                            <span id="hud-coords" class="hud-item">X: — Y: — W: — H: —</span>
+                            <span class="hud-hint">Wheel to zoom • Space+Drag to pan • Drag handles to resize</span>
+                        </div>
+                    </div>
+
+                    <div id="viewport-container" class="canvas-viewport" tabindex="0">
+                        <div id="canvas-transformer" class="canvas-transformer">
+                            <canvas id="annotation-canvas" aria-label="Interactive bill annotation canvas"></canvas>
+                        </div>
+                        <div id="canvas-empty-state" class="empty-state">
+                            <div class="empty-icon">📜</div>
+                            <h3>Load an Agricultural Bill to Annotate</h3>
+                            <p>Choose an existing bill from the 32 real uploads or upload a new bill photo.</p>
+                            <div class="empty-actions">
+                                <button class="btn-primary" id="btn-empty-gallery" type="button">📂 Open Existing Bills Gallery</button>
+                                <label class="btn-secondary">
+                                    <span>Upload Bill Image</span>
+                                    <input id="empty-image-input" type="file" accept="image/*">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Annotation Inspector & Sidebar -->
+                <aside class="studio-sidebar glass-card">
+                    <!-- Active Box Inspector -->
+                    <div class="inspector-card" id="inspector-card">
+                        <div class="inspector-header">
+                            <div class="inspector-title">
+                                <span class="panel-tag tag-cyan" id="active-crop-badge">Select a Crop</span>
+                                <h3 id="active-crop-title">Box Inspector</h3>
+                            </div>
+                            <span id="active-crop-dimensions" class="mono-sub">0 × 0 px</span>
+                        </div>
+
+                        <!-- Real-time Magnified Crop Preview -->
+                        <div class="crop-preview-wrapper">
+                            <canvas id="crop-preview-canvas" width="320" height="96" aria-label="Magnified crop preview"></canvas>
+                            <div id="preview-placeholder" class="preview-placeholder">Draw or click a box to preview crop</div>
+                        </div>
+
+                        <!-- Field Category / Type Radio Selector -->
+                        <div class="form-row">
+                            <label class="field-label">Field Content Category <span class="req">*</span></label>
+                            <div class="segmented-control" id="crop-type-control">
+                                <button type="button" class="segment-btn active" data-type="printed" title="Printed template text prompt, e.g. రైతు పేరు:">
+                                    <span>🏷️ Label (Printed)</span>
+                                </button>
+                                <button type="button" class="segment-btn" data-type="handwritten" title="Handwritten farmer/agent name, commodity, etc.">
+                                    <span>✍️ Value (Handwritten)</span>
+                                </button>
+                                <button type="button" class="segment-btn" data-type="digits" title="Numerical digits, weights, rate, amounts">
+                                    <span>🔢 Digits (Numbers)</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Standard Mandi Field Name Selector -->
+                        <div class="form-row">
+                            <div class="label-with-hint">
+                                <label for="field-name-select" class="field-label">Field Name <span class="req">*</span></label>
+                                <span class="hint-small">Select standardized field</span>
+                            </div>
+                            <select id="field-name-select" class="form-select">
+                                <option value="">-- Choose Mandi Field --</option>
+                                <optgroup label="📋 Mandi & Slip Headers">
+                                    <option value="MARKET_COMMITTEE_TITLE">వ్యవసాయ మార్కెట్ కమిటీ (Market Committee)</option>
+                                    <option value="LOCATION_PLACE">ప్రదేశం / ఖమ్మం (Location / Place)</option>
+                                    <option value="BOOK_NO">పుస్తకం నెం (Book No)</option>
+                                    <option value="SLIP_NO">రసీదు / బిల్లు నెం (Slip / Bill No)</option>
+                                    <option value="DATE">తేదీ (Date)</option>
+                                    <option value="LICENSE_NO">లైసెన్స్ నెం (License No)</option>
+                                </optgroup>
+                                <optgroup label="👥 Stakeholders">
+                                    <option value="FARMER_NAME">రైతు / అమ్మకందారు పేరు (Farmer Name)</option>
+                                    <option value="COMMISSION_AGENT">కమిషన్ వ్యాపారి / అడ్తీదారు (Agent Name)</option>
+                                    <option value="BUYER_NAME">కొనుగోలుదారు / వర్తకుడు (Buyer Name)</option>
+                                    <option value="VILLAGE">గ్రామము / ఊరు (Village / Town)</option>
+                                    <option value="MANDAL">మండలం (Mandal)</option>
+                                </optgroup>
+                                <optgroup label="🌾 Transaction Details">
+                                    <option value="COMMODITY">సరుకు / దినుసు (Commodity Name)</option>
+                                    <option value="NO_OF_BAGS">బస్తాల సంఖ్య (No of Bags)</option>
+                                    <option value="NET_WEIGHT">నికర బరువు / తూకం (Net Weight Kgs)</option>
+                                    <option value="RATE_PER_QTL">ధర / రేటు (Rate per Quintal)</option>
+                                    <option value="GROSS_AMOUNT">స్థూల మొత్తం (Gross Amount)</option>
+                                </optgroup>
+                                <optgroup label="💰 Deductions & Net Payable">
+                                    <option value="COMMISSION_ADTI">కమిషన్ / అడ్తీ (Commission / Adti)</option>
+                                    <option value="HAMALI">హమాలీ (Hamali / Handling)</option>
+                                    <option value="WEIGHING_CHARGES">తూకం ఖర్చులు (Weighing Charges)</option>
+                                    <option value="TOTAL_DEDUCTIONS">మొత్తం ఖర్చులు (Total Deductions)</option>
+                                    <option value="NET_PAYABLE">చెల్లించవలసిన నికర మొత్తం (Net Payable)</option>
+                                </optgroup>
+                                <optgroup label="✏️ Custom">
+                                    <option value="CUSTOM">Custom Field Name...</option>
+                                </optgroup>
+                            </select>
+                            <input id="field-name-custom" type="text" class="form-input custom-field-input" placeholder="Type custom field name..." style="display: none;">
+                        </div>
+
+                        <!-- Quick Field Chips for 1-Click Selection -->
+                        <div class="form-row">
+                            <span class="hint-label">Quick 1-Click Fields:</span>
+                            <div class="field-chips-grid">
+                                <button type="button" class="chip-btn" data-field="FARMER_NAME" data-type="handwritten">రైతు పేరు (Farmer)</button>
+                                <button type="button" class="chip-btn" data-field="COMMISSION_AGENT" data-type="handwritten">వ్యాపారి (Agent)</button>
+                                <button type="button" class="chip-btn" data-field="BUYER_NAME" data-type="handwritten">కొనుగోలుదారు (Buyer)</button>
+                                <button type="button" class="chip-btn" data-field="DATE" data-type="digits">తేదీ (Date)</button>
+                                <button type="button" class="chip-btn" data-field="SLIP_NO" data-type="digits">బిల్లు నెం (Bill #)</button>
+                                <button type="button" class="chip-btn" data-field="NO_OF_BAGS" data-type="digits">బస్తాలు (Bags)</button>
+                                <button type="button" class="chip-btn" data-field="NET_WEIGHT" data-type="digits">తూకం (Weight)</button>
+                                <button type="button" class="chip-btn" data-field="RATE_PER_QTL" data-type="digits">ధర (Rate)</button>
+                                <button type="button" class="chip-btn" data-field="NET_PAYABLE" data-type="digits">నికర మొత్తం (Net)</button>
+                            </div>
+                        </div>
+
+                        <!-- Telugu Character Quick Virtual Keyboard Bar -->
+                        <div class="form-row telugu-keyboard-panel">
+                            <div class="kb-header">
+                                <span class="hint-label">Telugu Virtual Keyboard:</span>
+                                <button type="button" class="btn-text-link" id="toggle-kb-btn">Show Characters</button>
+                            </div>
+                            <div id="telugu-keys-container" class="telugu-keys-container">
+                                <div class="kb-section">
+                                    <span class="kb-section-title">Guninthalu / Matras:</span>
+                                    <div class="kb-key-row">
+                                        <button type="button" class="t-key" data-char="ా">ా</button>
+                                        <button type="button" class="t-key" data-char="ి">ి</button>
+                                        <button type="button" class="t-key" data-char="ీ">ీ</button>
+                                        <button type="button" class="t-key" data-char="ు">ు</button>
+                                        <button type="button" class="t-key" data-char="ూ">ూ</button>
+                                        <button type="button" class="t-key" data-char="ృ">ృ</button>
+                                        <button type="button" class="t-key" data-char="ె">ె</button>
+                                        <button type="button" class="t-key" data-char="ే">ే</button>
+                                        <button type="button" class="t-key" data-char="ై">ై</button>
+                                        <button type="button" class="t-key" data-char="ొ">ొ</button>
+                                        <button type="button" class="t-key" data-char="ో">ో</button>
+                                        <button type="button" class="t-key" data-char="ౌ">ౌ</button>
+                                        <button type="button" class="t-key" data-char="్">్</button>
+                                        <button type="button" class="t-key" data-char="ం">ం</button>
+                                        <button type="button" class="t-key" data-char="ః">ః</button>
+                                    </div>
+                                </div>
+                                <div class="kb-section">
+                                    <span class="kb-section-title">Common Consonants & Symbols:</span>
+                                    <div class="kb-key-row">
+                                        <button type="button" class="t-key" data-char="క">క</button>
+                                        <button type="button" class="t-key" data-char="గ">గ</button>
+                                        <button type="button" class="t-key" data-char="చ">చ</button>
+                                        <button type="button" class="t-key" data-char="జ">జ</button>
+                                        <button type="button" class="t-key" data-char="ట">ట</button>
+                                        <button type="button" class="t-key" data-char="డ">డ</button>
+                                        <button type="button" class="t-key" data-char="త">త</button>
+                                        <button type="button" class="t-key" data-char="ద">ద</button>
+                                        <button type="button" class="t-key" data-char="న">న</button>
+                                        <button type="button" class="t-key" data-char="ప">ప</button>
+                                        <button type="button" class="t-key" data-char="బ">బ</button>
+                                        <button type="button" class="t-key" data-char="మ">మ</button>
+                                        <button type="button" class="t-key" data-char="య">య</button>
+                                        <button type="button" class="t-key" data-char="ర">ర</button>
+                                        <button type="button" class="t-key" data-char="ల">ల</button>
+                                        <button type="button" class="t-key" data-char="వ">వ</button>
+                                        <button type="button" class="t-key" data-char="స">స</button>
+                                        <button type="button" class="t-key" data-char="హ">హ</button>
+                                        <button type="button" class="t-key" data-char="₹">₹</button>
+                                        <button type="button" class="t-key" data-char=".">.</button>
+                                        <button type="button" class="t-key" data-char="/">/</button>
+                                        <button type="button" class="t-key" data-char="-">-</button>
+                                        <button type="button" class="t-key" data-char=":">:</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Exact Transcription Input -->
+                        <div class="form-row">
+                            <label for="transcription-input" class="field-label">Exact Transcription <span class="req">*</span></label>
+                            <input id="transcription-input" type="text" class="form-input transcription-font" placeholder="Type or click virtual keys above...">
+                        </div>
+
+                        <!-- Translation & Language Row -->
+                        <div class="form-grid-2">
+                            <div class="form-row">
+                                <label for="translation-input" class="field-label">English Translation</label>
+                                <input id="translation-input" type="text" class="form-input" placeholder="e.g. Farmer Name / 25 bags">
+                            </div>
+                            <div class="form-row">
+                                <label for="language-select" class="field-label">Language</label>
+                                <select id="language-select" class="form-select">
+                                    <option value="te" selected>Telugu (te)</option>
+                                    <option value="en">English (en)</option>
+                                    <option value="digits">Numeric (0-9)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- All Annotated Crops List on this Bill -->
+                    <div class="crops-list-panel">
+                        <div class="panel-header">
+                            <div class="panel-title-wrap">
+                                <span class="panel-tag tag-green">Bill Annotations</span>
+                                <h3 id="crops-list-title">Annotated Fields</h3>
+                            </div>
+                            <span id="crop-counter" class="line-counter">0 crops</span>
+                        </div>
+                        <div id="annotation-cards-container" class="annotation-cards-container">
+                            <div class="empty-list-hint">Draw boxes on the bill to add annotations.</div>
+                        </div>
+                    </div>
+
+                    <!-- Bill Group ID & Save Actions -->
+                    <div class="sidebar-save-panel">
+                        <div class="form-row">
+                            <label for="bill-group-id" class="field-label">Bill Group Identifier</label>
+                            <input id="bill-group-id" type="text" class="form-input" placeholder="e.g. mandi_bill_01">
+                        </div>
+                        <div class="save-action-row">
+                            <button id="save-annotations" class="btn-primary btn-save" type="button" disabled>
+                                <span>💾 Save Annotations & Ground Truth</span>
+                            </button>
+                        </div>
+                        <div id="save-status" class="save-status-msg" role="status" aria-live="polite"></div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </div>
+
+    <!-- Existing Bills Modal Gallery Picker -->
+    <div id="gallery-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+        <div class="modal-card glass-card">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span class="panel-tag tag-cyan">Library</span>
+                    <h2 id="modal-title">Select Bill from Real Uploads</h2>
+                </div>
+                <button class="modal-close-btn" id="modal-close-btn" type="button" aria-label="Close dialog">×</button>
+            </div>
+            <p class="modal-subtitle">Click any bill to load it into the Annotation Studio with instant rotation and canvas editing.</p>
+            <div class="gallery-search-bar">
+                <input id="gallery-search" type="search" class="form-input" placeholder="Filter by bill filename...">
+            </div>
+            <div id="gallery-grid" class="gallery-grid">
+                <div class="loading-spinner">Loading bill images...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/annotate.js"></script>
+</body>
+</html>

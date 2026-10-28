@@ -1,0 +1,31 @@
+{
+  "id": "d8cfba439d22411fb3ada1234b4c1d9d",
+  "source_image": "28c1c8f491354df291f84791ef4b2f7d",
+  "bill_group_id": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1)",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    850,
+    565,
+    72,
+    30
+  ],
+  "bbox_normalized": [
+    0.6640625,
+    0.5885416666666666,
+    0.05625,
+    0.03125
+  ],
+  "field_name": "HAMALI",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\d8cfba439d22411fb3ada1234b4c1d9d.png",
+  "text": "హమాలి",
+  "translated_text": "Hamali / Labour handling charge",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "review_status": "APPROVED"
+}

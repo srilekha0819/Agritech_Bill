@@ -1,0 +1,26 @@
+{
+  "id": "0a6a01dede2e47119a3376fe7c7b4e71",
+  "source_image": "upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "bill_group_id": "upright_WhatsApp_Image_2026-09-17_at_4.09.25_PM",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    882,
+    443,
+    124,
+    136
+  ],
+  "field_name": "ఆసామికి చెల్లించవలసినవి",
+  "field_key": "ఆస మ క చ ల ల చవలస నవ",
+  "crop_path": "annotations/crops/handwritten/hw_upright_WhatsApp_Image_2026-09-17_at_4.09.25_PM_16_0a6a01de.png",
+  "text": "1585",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 180,
+  "alignment_inliers": 4856,
+  "reference_source": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "group_id": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "71c649e63d0f4abd8190680052a390ec",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.20 PM (1).jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.20 PM (1).jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.20_PM_1",
+  "image_width": 1200,
+  "image_height": 1600,
+  "bbox": [
+    665,
+    672,
+    74,
+    117
+  ],
+  "field_name": "భర్తీ/ కీ.గ్రా.",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.20_PM_1_18_71c649e6.png",
+  "text": "భర్తీ/వసూలు కిలోల కీ.గ్రా.",
+  "translated_text": "Weight in kg",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 0,
+  "alignment_inliers": 644,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

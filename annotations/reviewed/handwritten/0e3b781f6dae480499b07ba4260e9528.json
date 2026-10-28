@@ -1,0 +1,26 @@
+{
+  "id": "0e3b781f6dae480499b07ba4260e9528",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.13_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    311,
+    523,
+    258,
+    421
+  ],
+  "field_name": "BUYER_NAME",
+  "field_key": "buyer_name",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.13_PM_07_0e3b781f.png",
+  "text": "SS Agri Traders",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 0,
+  "alignment_inliers": 633,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 7
+}

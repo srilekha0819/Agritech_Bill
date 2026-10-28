@@ -1,0 +1,31 @@
+{
+  "id": "e6c81e0e946941229f3f9912fda3e450",
+  "source_image": "28c1c8f491354df291f84791ef4b2f7d",
+  "bill_group_id": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1)",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    244,
+    516,
+    159,
+    281
+  ],
+  "bbox_normalized": [
+    0.190625,
+    0.5375,
+    0.12421875,
+    0.29270833333333335
+  ],
+  "field_name": "BUYER_NAME",
+  "field_category": "custom",
+  "crop_path": "data_generation/annotated_crops/manual_e6c81e0e946941229f3f9912fda3e450.png",
+  "text": "అంకుర్ ట్రేడర్స్",
+  "translated_text": "Ankur Traders",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "review_status": "APPROVED"
+}

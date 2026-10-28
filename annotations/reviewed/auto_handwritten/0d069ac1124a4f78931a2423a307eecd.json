@@ -1,0 +1,25 @@
+{
+  "id": "0d069ac1124a4f78931a2423a307eecd",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.14 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.14 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.14_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    199,
+    526,
+    140,
+    353
+  ],
+  "field_name": "COMMODITY",
+  "field_key": "commodity",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.14_PM_06_0d069ac1.png",
+  "text": "",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "PENDING_TRANSCRIPTION",
+  "rotation_applied": 0,
+  "alignment_inliers": 624,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

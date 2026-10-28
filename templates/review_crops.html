@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review OCR Crops | LangBill AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/annotate.css">
+    <link rel="stylesheet" href="/static/css/review.css">
+</head>
+<body>
+    <div class="app-container review-app">
+        <header class="navbar">
+            <div class="brand">
+                <div class="logo-icon" aria-hidden="true">R</div>
+                <div>
+                    <h1 class="brand-title">Crop <span class="gradient-text">Review</span></h1>
+                    <p class="brand-subtitle">Only approved crops with verified text can enter training</p>
+                </div>
+            </div>
+            <a class="btn-small" href="/annotate">Manual annotation</a>
+        </header>
+
+        <main>
+            <section class="review-toolbar glass-card">
+                <span id="queue-status" role="status" aria-live="polite">Loading review queue...</span>
+                <div class="review-navigation">
+                    <button class="btn-small" id="previous-item" type="button" disabled>Previous</button>
+                    <span id="item-position" class="line-counter">0 / 0</span>
+                    <button class="btn-small" id="next-item" type="button" disabled>Next</button>
+                </div>
+            </section>
+
+            <section class="review-layout">
+                <div class="review-visuals">
+                    <section class="panel glass-card review-panel">
+                        <div class="panel-header">
+                            <div class="panel-title-wrap">
+                                <span class="panel-tag tag-cyan">Source</span>
+                                <h2 id="source-title">Bill image</h2>
+                            </div>
+                            <span id="bbox-label" class="line-counter"></span>
+                        </div>
+                        <div class="review-image-wrap">
+                            <img id="source-preview" alt="Original image with proposed crop region">
+                            <p id="source-placeholder" class="placeholder-text">No source preview available.</p>
+                        </div>
+                    </section>
+
+                    <section class="panel glass-card review-panel">
+                        <div class="panel-header">
+                            <div class="panel-title-wrap">
+                                <span class="panel-tag tag-green">Crop</span>
+                                <h2 id="region-title">Proposed region</h2>
+                            </div>
+                            <span id="crop-status" class="line-counter"></span>
+                        </div>
+                        <div class="review-crop-wrap">
+                            <img id="crop-preview" alt="Proposed OCR crop">
+                            <p id="crop-placeholder" class="placeholder-text">This proposal has no crop image.</p>
+                        </div>
+                    </section>
+                </div>
+
+                <aside class="annotation-side glass-card review-side">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <span class="panel-tag tag-green">Ground truth</span>
+                            <h2>Verify crop and text</h2>
+                        </div>
+                    </div>
+                    <div class="review-fields">
+                        <p id="review-warning" class="review-warning"></p>
+                        <label>Region type<input id="region-type" type="text" readonly></label>
+                        <label>Bill group ID<input id="bill-group-id" type="text" aria-label="Bill group ID" placeholder="Use the same ID for multiple photos of one bill"></label>
+                        <label>Exact transcription<textarea id="review-text" rows="4" placeholder="Enter the text exactly as it appears"></textarea></label>
+                        <label>English translation<textarea id="review-translation" rows="3" placeholder="Optional human-verified translation"></textarea></label>
+                        <label>Rejection category
+                            <select id="error-category">
+                                <option value="">Select when rejecting</option>
+                                <option value="WRONG_ALIGNMENT">Wrong alignment</option>
+                                <option value="WRONG_CROP">Wrong crop</option>
+                                <option value="MISSING_REGION">Missing region</option>
+                                <option value="PARTIAL_CROP">Partial crop</option>
+                                <option value="WRONG_REGION_TYPE">Wrong region type</option>
+                                <option value="BAD_IMAGE_QUALITY">Bad image quality</option>
+                                <option value="OCR_ERROR">OCR error</option>
+                                <option value="HANDWRITING_ERROR">Handwriting error</option>
+                                <option value="NUMBER_ERROR">Number error</option>
+                                <option value="TOKENIZER_ERROR">Tokenizer error</option>
+                                <option value="DECODING_ERROR">Decoding error</option>
+                                <option value="TRANSLATION_ERROR">Translation error</option>
+                                <option value="JSON_MAPPING_ERROR">JSON mapping error</option>
+                                <option value="OUT_OF_BOUNDS">Out of bounds</option>
+                                <option value="INVALID_CROP">Invalid crop</option>
+                                <option value="OTHER">Other</option>
+                            </select>
+                        </label>
+                        <label>Text style
+                            <select id="text-type">
+                                <option value="printed">Printed</option>
+                                <option value="handwritten">Handwritten</option>
+                            </select>
+                        </label>
+                        <label>Language<input id="language-code" type="text" placeholder="For example: te, en"></label>
+                    </div>
+                    <div class="review-actions">
+                        <button class="btn-small btn-reject" id="reject-crop" type="button">Reject crop</button>
+                        <button class="btn-primary" id="approve-crop" type="button">Approve with transcription</button>
+                    </div>
+                </aside>
+            </section>
+        </main>
+    </div>
+    <script src="/static/js/review_crops.js"></script>
+</body>
+</html>

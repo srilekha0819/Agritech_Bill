@@ -1,0 +1,26 @@
+{
+  "id": "0d5127714fc44ba9a6adb62cee876b79",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.05 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.05 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.05_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    315,
+    534,
+    82,
+    43
+  ],
+  "field_name": "COMMISSION_ADTI",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.05_PM_04_0d512771.png",
+  "text": "అడ్తి",
+  "translated_text": "Commission / Agent commission",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 719,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

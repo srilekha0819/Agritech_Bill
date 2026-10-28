@@ -1,0 +1,26 @@
+{
+  "id": "f194b33e253742dbabd10b1ad50848a5",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.20 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.20 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.20_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1223,
+    648,
+    129,
+    135
+  ],
+  "field_name": "COMMODITY",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.20_PM_13_f194b33e.png",
+  "text": "సరుకుల పేరు",
+  "translated_text": "Commodity / Goods Name",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 90,
+  "alignment_inliers": 782,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

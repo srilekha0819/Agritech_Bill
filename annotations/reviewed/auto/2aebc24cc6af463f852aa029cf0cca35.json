@@ -1,0 +1,26 @@
+{
+  "id": "2aebc24cc6af463f852aa029cf0cca35",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.18 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.18 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.18_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1223,
+    364,
+    119,
+    45
+  ],
+  "field_name": "MANDAL",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.18_PM_11_2aebc24c.png",
+  "text": "మండలం",
+  "translated_text": "Mandal",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 0,
+  "alignment_inliers": 672,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

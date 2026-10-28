@@ -1,0 +1,26 @@
+{
+  "id": "956498bf07be4824828e4da9fa2d140b",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.01 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.01 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.01_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1002,
+    146,
+    216,
+    93
+  ],
+  "field_name": "LOCATION_PLACE",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.01_PM_20_956498bf.png",
+  "text": "ఖమ్మం.",
+  "translated_text": "Khammam",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "alignment_inliers": 428,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "1cab7f44a31849fdb982548504e1537e",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.08.59 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.08.59 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.08.59_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    264,
+    351,
+    503,
+    69
+  ],
+  "field_name": "FARMER_NAME",
+  "field_key": "farmer_name",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.08.59_PM_04_1cab7f44.png",
+  "text": "V.వెంకటేశ్వర్లు",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 270,
+  "alignment_inliers": 379,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 4
+}

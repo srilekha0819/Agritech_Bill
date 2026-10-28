@@ -1,0 +1,31 @@
+{
+  "id": "9b939b9644244d758d23b4b22440e50a",
+  "source_image": "091485709e3a467c89a331423061f53d",
+  "bill_group_id": "upright_WhatsApp Image 2026-09-17 at 4.09.25 PM",
+  "source_filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    643,
+    341,
+    62,
+    99
+  ],
+  "bbox_normalized": [
+    0.50234375,
+    0.35520833333333335,
+    0.0484375,
+    0.103125
+  ],
+  "field_name": "BUYER_NAME",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\9b939b9644244d758d23b4b22440e50a.png",
+  "text": "ధర",
+  "translated_text": "Rate",
+  "type": "printed",
+  "language": "digits",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "review_status": "APPROVED"
+}

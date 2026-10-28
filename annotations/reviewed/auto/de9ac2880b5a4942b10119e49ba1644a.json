@@ -1,0 +1,26 @@
+{
+  "id": "de9ac2880b5a4942b10119e49ba1644a",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.13_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1016,
+    689,
+    223,
+    134
+  ],
+  "field_name": "BUYER_NAME",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.13_PM_07_de9ac288.png",
+  "text": "కొనుగోలుదారు పేరు",
+  "translated_text": "Purchaser / Buyer Name",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 681,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

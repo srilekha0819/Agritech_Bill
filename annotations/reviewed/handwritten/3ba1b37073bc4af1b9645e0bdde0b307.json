@@ -1,0 +1,26 @@
+{
+  "id": "3ba1b37073bc4af1b9645e0bdde0b307",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.06 PM (1).jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.06 PM (1).jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.06_PM_1",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    350,
+    568,
+    221,
+    368
+  ],
+  "field_name": "BUYER_NAME",
+  "field_key": "buyer_name",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.06_PM_1_07_3ba1b370.png",
+  "text": "chs Shaesta Trader",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 0,
+  "alignment_inliers": 641,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 6
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e86e1bdedc794b378ac25525291f5844",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.05 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.05 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.05_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1117,
+    760,
+    287,
+    55
+  ],
+  "field_name": "FARMER_NAME",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.05_PM_03_e86e1bde.png",
+  "text": "రైతు/అమ్మకందారు పేరు",
+  "translated_text": "Farmer/Seller Name",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 719,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

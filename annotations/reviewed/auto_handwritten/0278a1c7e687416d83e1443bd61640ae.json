@@ -1,0 +1,25 @@
+{
+  "id": "0278a1c7e687416d83e1443bd61640ae",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.13 PM (1).jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.13 PM (1).jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.13_PM_1",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1286,
+    867,
+    189,
+    102
+  ],
+  "field_name": "ఆసామికి చెల్లించవలసినవి Amount payable to the owner/seller",
+  "field_key": "ఆస మ క చ ల ల చవలస నవ amount payable to the owner seller",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.13_PM_1_13_0278a1c7.png",
+  "text": "",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "PENDING_TRANSCRIPTION",
+  "rotation_applied": 0,
+  "alignment_inliers": 693,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

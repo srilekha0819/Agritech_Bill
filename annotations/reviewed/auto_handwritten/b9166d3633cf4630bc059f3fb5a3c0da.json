@@ -1,0 +1,25 @@
+{
+  "id": "b9166d3633cf4630bc059f3fb5a3c0da",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.15 PM (1).jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.15 PM (1).jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.15_PM_1",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1007,
+    623,
+    150,
+    128
+  ],
+  "field_name": "HAMALI",
+  "field_key": "hamali",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.15_PM_1_11_b9166d36.png",
+  "text": "",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "PENDING_TRANSCRIPTION",
+  "rotation_applied": 0,
+  "alignment_inliers": 573,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

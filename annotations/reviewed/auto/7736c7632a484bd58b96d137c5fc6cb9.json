@@ -1,0 +1,26 @@
+{
+  "id": "7736c7632a484bd58b96d137c5fc6cb9",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.22 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.22 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.22_PM",
+  "image_width": 960,
+  "image_height": 1280,
+  "bbox": [
+    504,
+    820,
+    90,
+    118
+  ],
+  "field_name": "TOTAL_DEDUCTIONS",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.22_PM_15_7736c763.png",
+  "text": "మొత్తం విలువ రూపాయలలో",
+  "translated_text": "Total value in rupees",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 0,
+  "alignment_inliers": 725,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

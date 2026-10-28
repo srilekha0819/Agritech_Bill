@@ -1,0 +1,31 @@
+{
+  "id": "5cc4bc2e5b254c93bb6be04e2c113356",
+  "source_image": "28c1c8f491354df291f84791ef4b2f7d",
+  "bill_group_id": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1)",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    914,
+    423,
+    93,
+    83
+  ],
+  "bbox_normalized": [
+    0.7140625,
+    0.440625,
+    0.07265625,
+    0.08645833333333333
+  ],
+  "field_name": "ఆసామికి చెల్లించవలసినవి (Amount payable to the owner/seller)",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\5cc4bc2e5b254c93bb6be04e2c113356.png",
+  "text": "ఆసామికి చెల్లించవలసినవి",
+  "translated_text": "Amount payable to the owner/seller",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "review_status": "APPROVED"
+}

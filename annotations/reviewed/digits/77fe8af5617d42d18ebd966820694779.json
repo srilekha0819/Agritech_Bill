@@ -1,0 +1,26 @@
+{
+  "id": "77fe8af5617d42d18ebd966820694779",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.15 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.15 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.15_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    454,
+    170,
+    212,
+    86
+  ],
+  "field_name": "BOOK_NO",
+  "field_key": "book_no",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.15_PM_01_77fe8af5.png",
+  "text": "2921",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 0,
+  "alignment_inliers": 506,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 7
+}

@@ -1,0 +1,26 @@
+{
+  "id": "b9bc2e6f9bb045ccb6c54e2d2a0f5578",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.03 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.03 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.03_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1177,
+    235,
+    287,
+    122
+  ],
+  "field_name": "SLIP_NO",
+  "field_key": "slip_no",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.03_PM_00_b9bc2e6f.png",
+  "text": "78",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 270,
+  "alignment_inliers": 443,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 5
+}

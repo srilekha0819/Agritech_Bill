@@ -1,0 +1,26 @@
+{
+  "id": "90dcefa36f5f4c02ba979b7b27afeac6",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.15 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.15 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.15_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    661,
+    851,
+    104,
+    42
+  ],
+  "field_name": "VILLAGE",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.15_PM_00_90dcefa3.png",
+  "text": "గ్రామము",
+  "translated_text": "Village",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 567,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

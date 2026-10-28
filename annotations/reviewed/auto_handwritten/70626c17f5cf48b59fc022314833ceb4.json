@@ -1,0 +1,25 @@
+{
+  "id": "70626c17f5cf48b59fc022314833ceb4",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.23_PM_1",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    323,
+    354,
+    311,
+    37
+  ],
+  "field_name": "FARMER_NAME",
+  "field_key": "farmer_name",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.23_PM_1_04_70626c17.png",
+  "text": "",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "PENDING_TRANSCRIPTION",
+  "rotation_applied": 270,
+  "alignment_inliers": 4675,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "509dc8a07f5e4066a6f58fef0b154dab",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.25_PM",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    220,
+    151,
+    538,
+    58
+  ],
+  "field_name": "MARKET_COMMITTEE_TITLE",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.25_PM_10_509dc8a0.png",
+  "text": "వ్యవసాయ మార్కెట్ కమిటీ,",
+  "translated_text": "Agricultural Market Committee",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "alignment_inliers": 4645,
+  "reference_source": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg"
+}

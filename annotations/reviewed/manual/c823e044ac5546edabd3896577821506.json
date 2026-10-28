@@ -1,0 +1,31 @@
+{
+  "id": "c823e044ac5546edabd3896577821506",
+  "source_image": "28c1c8f491354df291f84791ef4b2f7d",
+  "bill_group_id": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1)",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    737,
+    528,
+    113,
+    94
+  ],
+  "bbox_normalized": [
+    0.57578125,
+    0.55,
+    0.08828125,
+    0.09791666666666667
+  ],
+  "field_name": "HAMALI",
+  "field_category": "custom",
+  "crop_path": "data_generation/annotated_crops/manual_c823e044ac5546edabd3896577821506.png",
+  "text": "2672",
+  "translated_text": "2672",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "review_status": "APPROVED"
+}

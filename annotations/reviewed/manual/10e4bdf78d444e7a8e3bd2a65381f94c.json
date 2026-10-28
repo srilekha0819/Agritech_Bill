@@ -1,0 +1,31 @@
+{
+  "id": "10e4bdf78d444e7a8e3bd2a65381f94c",
+  "source_image": "091485709e3a467c89a331423061f53d",
+  "bill_group_id": "upright_WhatsApp Image 2026-09-17 at 4.09.25 PM",
+  "source_filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    453,
+    384,
+    93,
+    60
+  ],
+  "bbox_normalized": [
+    0.35390625,
+    0.4,
+    0.07265625,
+    0.0625
+  ],
+  "field_name": "భర్తీ/కిలోలకీ.గ్రా",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\10e4bdf78d444e7a8e3bd2a65381f94c.png",
+  "text": "భర్తీ/వసూలు కిలోల కీ.గ్రా.",
+  "translated_text": "Weight in kg",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "review_status": "APPROVED"
+}

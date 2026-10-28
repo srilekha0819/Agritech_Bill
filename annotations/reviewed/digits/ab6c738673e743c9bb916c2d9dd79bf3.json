@@ -1,0 +1,26 @@
+{
+  "id": "ab6c738673e743c9bb916c2d9dd79bf3",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.19 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.19 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.19_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    957,
+    601,
+    151,
+    52
+  ],
+  "field_name": "COMMISSION_ADTI",
+  "field_key": "commission_adti",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.19_PM_10_ab6c7386.png",
+  "text": "13261",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 270,
+  "alignment_inliers": 583,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 9
+}

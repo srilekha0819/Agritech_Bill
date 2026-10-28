@@ -1,0 +1,26 @@
+{
+  "id": "52c212a57acf4cc4a57ba95b260d4dc3",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.14 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.14 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.14_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1337,
+    694,
+    63,
+    131
+  ],
+  "field_name": "క్రమ సంఖ్య(Serial Number)",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.14_PM_10_52c212a5.png",
+  "text": "క్రమ సంఖ్య",
+  "translated_text": "Serial Number",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 653,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

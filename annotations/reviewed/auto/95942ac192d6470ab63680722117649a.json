@@ -1,0 +1,26 @@
+{
+  "id": "95942ac192d6470ab63680722117649a",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.00 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.00 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.00_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1120,
+    600,
+    101,
+    90
+  ],
+  "field_name": "COMMISSION_AGENT",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.00_PM_09_95942ac1.png",
+  "text": "బస్తాల సంఖ్య",
+  "translated_text": "Number of bags",
+  "type": "printed",
+  "language": "digits",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 90,
+  "alignment_inliers": 422,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cbd5803e95624dba9513bc3f80e0fc92",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.13_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1138,
+    889,
+    257,
+    51
+  ],
+  "field_name": "COMMISSION_AGENT",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.13_PM_05_cbd5803e.png",
+  "text": "కమిషన్/అడ్తిదారు పేరు",
+  "translated_text": "Commission Agent Name",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 681,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangBill AI - Multilingual Bill Intelligence (Built From Scratch)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Background glow shapes -->
+    <div class="glow-sphere glow-1"></div>
+    <div class="glow-sphere glow-2"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="navbar">
+            <div class="brand">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="brand-title">LangBill <span class="gradient-text">AI</span></h1>
+                    <p class="brand-subtitle">Multilingual Document & Bill Intelligence Engine</p>
+                </div>
+            </div>
+
+            <div class="badge-group">
+                <a class="badge badge-accent" href="/annotate">Manual Annotation</a>
+                <a class="badge badge-success" href="/review-crops">Review Crops</a>
+                <span class="badge badge-pulse">
+                    <span class="pulse-dot"></span> Custom PyTorch CRNN OCR
+                </span>
+                <span class="badge badge-accent">
+                    Seq2Seq Attention Translator
+                </span>
+                <span class="badge badge-success">
+                    100% From Scratch • Zero APIs
+                </span>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Upload & Presets Area -->
+            <section class="upload-section glass-card">
+                <div class="section-header">
+                    <h2>Upload Document</h2>
+                    <p class="section-desc">Universal Document Intelligence • Upload Any Color Image or Document • Autonomous OCR, Multilingual Translation & Structuring</p>
+                </div>
+
+                <div class="upload-grid">
+                    <div class="dropzone" id="dropzone">
+                        <input type="file" id="file-input" accept="image/*" style="display:none;">
+                        <div class="dropzone-content" onclick="document.getElementById('file-input').click()">
+                            <div class="upload-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="17 8 12 3 7 8"></polyline>
+                                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                                </svg>
+                            </div>
+                            <p class="drop-title">Drop ANY bill or document image here</p>
+                            <p class="drop-sub">or <span class="browse-link">browse files</span> (Any color supported: PNG, JPG, JPEG)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls row -->
+                <div class="controls-row">
+                    <div class="rotation-controls">
+                        <span class="control-label">Manual Rotation:</span>
+                        <div class="btn-group">
+                            <button class="btn-pill active" id="rot-0" onclick="setRotation(0)">0°</button>
+                            <button class="btn-pill" id="rot-90" onclick="setRotation(90)">90°</button>
+                            <button class="btn-pill" id="rot-180" onclick="setRotation(180)">180°</button>
+                            <button class="btn-pill" id="rot-270" onclick="setRotation(270)">270°</button>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn-primary" id="btn-process" onclick="processCurrentImage()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            Extract, Translate & Structure
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Loading Spinner -->
+            <div class="loading-overlay" id="loading-overlay" style="display: none;">
+                <div class="spinner"></div>
+                <h3 id="loading-status">Running End-to-End Pipeline...</h3>
+                <p id="loading-sub">CRNN Multilingual OCR ➔ Attention Translation ➔ JSON Structuring</p>
+            </div>
+
+            <!-- KPI Cards Grid -->
+            <section class="kpi-grid" id="kpi-section" style="display: none;">
+                <div class="kpi-card">
+                    <span class="kpi-label">Market Committee</span>
+                    <span class="kpi-val" id="kpi-committee">-</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-label">Bill / Date</span>
+                    <span class="kpi-val highlight-blue" id="kpi-bill-date">-</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-label">Buyer / Trader</span>
+                    <span class="kpi-val" id="kpi-buyer">-</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-label">Farmer / Seller</span>
+                    <span class="kpi-val" id="kpi-farmer">-</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-label">Net Weight / Bags</span>
+                    <span class="kpi-val" id="kpi-weight">-</span>
+                </div>
+                <div class="kpi-card accent-card">
+                    <span class="kpi-label">Net Payable to Farmer</span>
+                    <span class="kpi-val highlight-green" id="kpi-net-payable">-</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-label" title="Model confidence is not measured OCR accuracy.">OCR Confidence Estimate</span>
+                    <span class="kpi-val highlight-blue" id="kpi-ocr-confidence">Not available</span>
+                </div>
+            </section>
+
+            <!-- 4-Panel Result View -->
+            <section class="results-grid" id="results-section" style="display: none;">
+                <!-- Panel 1: Original Slip with Visual Bounding Boxes -->
+                <div class="panel glass-card">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <span class="panel-tag">Visual</span>
+                            <h3>Document Viewer</h3>
+                        </div>
+                        <div class="panel-actions">
+                            <button class="btn-icon" title="Zoom In" onclick="zoomImage(1.2)">+</button>
+                            <button class="btn-icon" title="Zoom Out" onclick="zoomImage(0.8)">-</button>
+                            <button class="btn-icon" title="Reset View" onclick="resetZoom()">⟲</button>
+                        </div>
+                    </div>
+                    <div class="panel-body image-viewer-container" id="viewer-container">
+                        <img id="bill-preview-img" src="" alt="Bill Slip Preview">
+                    </div>
+                </div>
+
+                <!-- Panel 2: Raw Extracted Text -->
+                <div class="panel glass-card">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <span class="panel-tag tag-purple">Step 1: OCR</span>
+                            <h3>Extracted Multilingual Text</h3>
+                        </div>
+                        <span class="line-counter" id="ocr-line-count">0 Lines</span>
+                    </div>
+                    <div class="panel-body text-scroll" id="ocr-results-container">
+                        <div class="placeholder-text">Extracted lines will appear here...</div>
+                    </div>
+                </div>
+
+                <!-- Panel 3: Translated English Text -->
+                <div class="panel glass-card">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <span class="panel-tag tag-cyan">Step 2: Seq2Seq</span>
+                            <h3>Translated English Text</h3>
+                        </div>
+                        <button class="btn-small" onclick="copyText('translated-results-container')">Copy</button>
+                    </div>
+                    <div class="panel-body text-scroll" id="translated-results-container">
+                        <div class="placeholder-text">English translation will appear here...</div>
+                    </div>
+                </div>
+
+                <!-- Panel 4: Final Structured JSON -->
+                <div class="panel glass-card">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <span class="panel-tag tag-green">Step 3: JSON</span>
+                            <h3>Final Structured JSON Output</h3>
+                        </div>
+                        <div class="panel-actions">
+                            <button class="btn-small" onclick="copyJSON()">Copy JSON</button>
+                            <button class="btn-small btn-download" onclick="downloadJSON()">Download .json</button>
+                        </div>
+                    </div>
+                    <div class="panel-body json-container">
+                        <pre id="json-output"><code>{ /* Structured bill JSON will render here */ }</code></pre>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built completely from scratch using <strong>PyTorch</strong> (CRNN OCR + Seq2Seq Attention Translator + APMC Intelligence Parser) • No Pretrained Weights • Zero Cloud APIs</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

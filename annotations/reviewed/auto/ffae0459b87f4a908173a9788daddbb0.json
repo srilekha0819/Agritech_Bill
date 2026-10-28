@@ -1,0 +1,26 @@
+{
+  "id": "ffae0459b87f4a908173a9788daddbb0",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.14 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.14 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.14_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    1085,
+    928,
+    165,
+    59
+  ],
+  "field_name": "BOOK_NO",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.14_PM_01_ffae0459.png",
+  "text": "పుస్తకము నెం.",
+  "translated_text": "Book No.",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 653,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

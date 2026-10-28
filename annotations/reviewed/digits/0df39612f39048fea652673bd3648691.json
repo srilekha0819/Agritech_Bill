@@ -1,0 +1,26 @@
+{
+  "id": "0df39612f39048fea652673bd3648691",
+  "source_image": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "source_filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "bill_group_id": "upright_upright_WhatsApp_Image_2026-09-17_at_4.09.25_PM",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    448,
+    440,
+    95,
+    266
+  ],
+  "field_name": "భర్తీ/వసూలు కిలోల కీ.గ్రా.(Weight in kg)",
+  "field_key": "భర త వస ల క ల ల క గ ర weight in kg",
+  "crop_path": "annotations/crops/handwritten/hw_upright_upright_WhatsApp_Image_2026-09-17_at_4.09.25_PM_11_0df39612.png",
+  "text": "1000",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 0,
+  "alignment_inliers": 5000,
+  "reference_source": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "group_id": 1
+}

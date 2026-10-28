@@ -1,0 +1,31 @@
+{
+  "id": "6fe869658ab14bb7909268c55e3937de",
+  "source_image": "091485709e3a467c89a331423061f53d",
+  "bill_group_id": "upright_WhatsApp Image 2026-09-17 at 4.09.25 PM",
+  "source_filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    915,
+    198,
+    132,
+    70
+  ],
+  "bbox_normalized": [
+    0.71484375,
+    0.20625,
+    0.103125,
+    0.07291666666666667
+  ],
+  "field_name": "SLIP_NO",
+  "field_category": "custom",
+  "crop_path": "data_generation/annotated_crops/manual_6fe869658ab14bb7909268c55e3937de.png",
+  "text": "85",
+  "translated_text": "85",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "review_status": "APPROVED"
+}

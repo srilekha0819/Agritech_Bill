@@ -1,0 +1,31 @@
+{
+  "id": "218bbe79fcbf4846911e093b0281c120",
+  "source_image": "091485709e3a467c89a331423061f53d",
+  "bill_group_id": "upright_WhatsApp Image 2026-09-17 at 4.09.25 PM",
+  "source_filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    546,
+    339,
+    95,
+    96
+  ],
+  "bbox_normalized": [
+    0.4265625,
+    0.353125,
+    0.07421875,
+    0.1
+  ],
+  "field_name": "NET_WEIGHT",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\218bbe79fcbf4846911e093b0281c120.png",
+  "text": "నికరతూకము క్వి. కీ.గ్రా.",
+  "translated_text": "Net weight, quintals/kg",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "review_status": "APPROVED"
+}

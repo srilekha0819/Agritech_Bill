@@ -1,0 +1,26 @@
+{
+  "id": "45b7c8aa35ee4c3bafe9642f4ba9e98a",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.24 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.24 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.24_PM",
+  "image_width": 960,
+  "image_height": 1280,
+  "bbox": [
+    256,
+    525,
+    29,
+    70
+  ],
+  "field_name": "DATE",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.24_PM_14_45b7c8aa.png",
+  "text": "తేది",
+  "translated_text": "Date",
+  "type": "printed",
+  "language": "digits",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 890,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

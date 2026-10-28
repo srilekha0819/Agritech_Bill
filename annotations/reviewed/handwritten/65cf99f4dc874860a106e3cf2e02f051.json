@@ -1,0 +1,26 @@
+{
+  "id": "65cf99f4dc874860a106e3cf2e02f051",
+  "source_image": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "bill_group_id": "upright_WhatsApp_Image_2026-09-17_at_4.09.23_PM_1",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    244,
+    516,
+    159,
+    281
+  ],
+  "field_name": "BUYER_NAME",
+  "field_key": "buyer_name",
+  "crop_path": "annotations/crops/handwritten/hw_upright_WhatsApp_Image_2026-09-17_at_4.09.23_PM_1_07_65cf99f4.png",
+  "text": "అంకుర్ ట్రేడర్స్",
+  "type": "handwritten",
+  "language": "te",
+  "annotation_source": "auto_crop_homography",
+  "status": "VERIFIED_AUTO",
+  "rotation_applied": 0,
+  "alignment_inliers": 5000,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "group_id": 2
+}

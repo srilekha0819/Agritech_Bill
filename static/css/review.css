@@ -1,0 +1,134 @@
+.review-app {
+    max-width: 1600px;
+}
+
+.review-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    color: var(--text-muted);
+}
+
+.review-navigation {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(320px, 0.8fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.review-visuals {
+    display: grid;
+    gap: 18px;
+    min-width: 0;
+}
+
+.review-panel {
+    height: auto;
+    min-height: 280px;
+}
+
+.review-panel .panel-header h2,
+.review-side .panel-header h2 {
+    font-size: 1rem;
+}
+
+.review-image-wrap,
+.review-crop-wrap {
+    display: grid;
+    place-items: center;
+    min-height: 220px;
+    max-height: 58vh;
+    overflow: auto;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.review-image-wrap img {
+    max-width: 100%;
+    max-height: 54vh;
+    object-fit: contain;
+}
+
+.review-crop-wrap img {
+    max-width: 100%;
+    max-height: 52vh;
+    object-fit: contain;
+    image-rendering: auto;
+}
+
+.review-fields {
+    display: grid;
+    gap: 12px;
+    padding: 16px;
+}
+
+.review-fields label {
+    display: grid;
+    gap: 6px;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+}
+
+.review-fields input,
+.review-fields textarea,
+.review-fields select {
+    width: 100%;
+    min-height: 38px;
+    padding: 8px 10px;
+    color: var(--text-main);
+    background: rgba(0, 0, 0, 0.28);
+    border: 1px solid var(--card-border);
+    border-radius: 5px;
+    font: 0.88rem var(--font-body);
+}
+
+.review-fields textarea {
+    resize: vertical;
+    min-height: 92px;
+}
+
+.review-fields select option {
+    color: #111827;
+}
+
+.review-warning {
+    color: #f6c85f;
+    font-size: 0.82rem;
+}
+
+.review-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 14px 16px 18px;
+    border-top: 1px solid var(--card-border);
+}
+
+.review-actions .btn-primary {
+    justify-content: center;
+}
+
+.btn-reject {
+    color: #fecaca;
+    border-color: rgba(248, 113, 113, 0.4);
+}
+
+@media (max-width: 900px) {
+    .review-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .review-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

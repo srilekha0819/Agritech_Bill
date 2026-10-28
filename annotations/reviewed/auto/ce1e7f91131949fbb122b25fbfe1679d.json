@@ -1,0 +1,26 @@
+{
+  "id": "ce1e7f91131949fbb122b25fbfe1679d",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.13 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.13_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    590,
+    700,
+    75,
+    106
+  ],
+  "field_name": "RATE_PER_QTL",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.13_PM_12_ce1e7f91.png",
+  "text": "ధర",
+  "translated_text": "rate",
+  "type": "printed",
+  "language": "digits",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 180,
+  "alignment_inliers": 681,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}

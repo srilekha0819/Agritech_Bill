@@ -1,0 +1,2754 @@
+{
+  "schema_version": 2,
+  "coordinate_space": "normalized_xyxy per manual source image; automatic transfer uses direct alignment to the selected source image",
+  "reference_image_id": "091485709e3a467c89a331423061f53d",
+  "reference_filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "manual_source_images": [
+    {
+      "source_image_id": "091485709e3a467c89a331423061f53d",
+      "filename": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+      "width": 1280,
+      "height": 960,
+      "aspect_ratio": 1.3333333333333333,
+      "regions": [
+        {
+          "region_key": "market_committee_title",
+          "region_type": "MARKET_COMMITTEE_TITLE",
+          "annotation_id": "80c61d0c665d4f17991e4067d5ec352a",
+          "bbox_xywh": [
+            220,
+            151,
+            538,
+            58
+          ],
+          "normalized_bbox_xyxy": [
+            0.171875,
+            0.15729166666666666,
+            0.5921875,
+            0.21770833333333334
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_80c61d0c665d4f17991e4067d5ec352a.png",
+          "crop_width": 538,
+          "crop_height": 58,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "location_place",
+          "region_type": "LOCATION_PLACE",
+          "annotation_id": "895f78e725f0430f86a4d36d05b1f5cc",
+          "bbox_xywh": [
+            751,
+            148,
+            138,
+            57
+          ],
+          "normalized_bbox_xyxy": [
+            0.58671875,
+            0.15416666666666667,
+            0.69453125,
+            0.21354166666666666
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_895f78e725f0430f86a4d36d05b1f5cc.png",
+          "crop_width": 138,
+          "crop_height": 57,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "date",
+          "region_type": "DATE",
+          "annotation_id": "2f6b8c42a12a4fe68537f1c3bc98f9b8",
+          "bbox_xywh": [
+            634,
+            204,
+            69,
+            47
+          ],
+          "normalized_bbox_xyxy": [
+            0.4953125,
+            0.2125,
+            0.54921875,
+            0.26145833333333335
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_2f6b8c42a12a4fe68537f1c3bc98f9b8.png",
+          "crop_width": 69,
+          "crop_height": 47,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "slip_no",
+          "region_type": "SLIP_NO",
+          "annotation_id": "bc4bbb3129834e60833328d526db3153",
+          "bbox_xywh": [
+            870,
+            208,
+            61,
+            38
+          ],
+          "normalized_bbox_xyxy": [
+            0.6796875,
+            0.21666666666666667,
+            0.72734375,
+            0.25625
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_bc4bbb3129834e60833328d526db3153.png",
+          "crop_width": 61,
+          "crop_height": 38,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "book_no",
+          "region_type": "BOOK_NO",
+          "annotation_id": "82a8d609a8f14737a21ea49b15966b63",
+          "bbox_xywh": [
+            213,
+            210,
+            130,
+            36
+          ],
+          "normalized_bbox_xyxy": [
+            0.16640625,
+            0.21875,
+            0.26796875,
+            0.25625
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_82a8d609a8f14737a21ea49b15966b63.png",
+          "crop_width": 130,
+          "crop_height": 36,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "license_no",
+          "region_type": "LICENSE_NO",
+          "annotation_id": "6a9ce10b55f24a2b958ef44a46adc453",
+          "bbox_xywh": [
+            556,
+            266,
+            96,
+            32
+          ],
+          "normalized_bbox_xyxy": [
+            0.434375,
+            0.27708333333333335,
+            0.509375,
+            0.3104166666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_6a9ce10b55f24a2b958ef44a46adc453.png",
+          "crop_width": 96,
+          "crop_height": 32,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "slip_no",
+          "region_type": "SLIP_NO",
+          "annotation_id": "6fe869658ab14bb7909268c55e3937de",
+          "bbox_xywh": [
+            915,
+            198,
+            132,
+            70
+          ],
+          "normalized_bbox_xyxy": [
+            0.71484375,
+            0.20625,
+            0.81796875,
+            0.2791666666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_6fe869658ab14bb7909268c55e3937de.png",
+          "crop_width": 132,
+          "crop_height": 70,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "book_no",
+          "region_type": "BOOK_NO",
+          "annotation_id": "d1b23311367b4ce39bfa64e5c495c5a5",
+          "bbox_xywh": [
+            293,
+            213,
+            219,
+            56
+          ],
+          "normalized_bbox_xyxy": [
+            0.22890625,
+            0.221875,
+            0.4,
+            0.28020833333333334
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_d1b23311367b4ce39bfa64e5c495c5a5.png",
+          "crop_width": 219,
+          "crop_height": 56,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "date",
+          "region_type": "DATE",
+          "annotation_id": "481fa38affb6407fa644c6e1fda6bd21",
+          "bbox_xywh": [
+            673,
+            205,
+            174,
+            35
+          ],
+          "normalized_bbox_xyxy": [
+            0.52578125,
+            0.21354166666666666,
+            0.66171875,
+            0.25
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_481fa38affb6407fa644c6e1fda6bd21.png",
+          "crop_width": 174,
+          "crop_height": 35,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_agent",
+          "region_type": "COMMISSION_AGENT",
+          "annotation_id": "26e05bb822c24164b2ca4454f91c2185",
+          "bbox_xywh": [
+            111,
+            262,
+            192,
+            27
+          ],
+          "normalized_bbox_xyxy": [
+            0.08671875,
+            0.27291666666666664,
+            0.23671875,
+            0.30104166666666665
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_26e05bb822c24164b2ca4454f91c2185.png",
+          "crop_width": 192,
+          "crop_height": 27,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "farmer_name",
+          "region_type": "FARMER_NAME",
+          "annotation_id": "9b5908017eba42e495957e3b112e1223",
+          "bbox_xywh": [
+            112,
+            299,
+            210,
+            31
+          ],
+          "normalized_bbox_xyxy": [
+            0.0875,
+            0.31145833333333334,
+            0.2515625,
+            0.34375
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_9b5908017eba42e495957e3b112e1223.png",
+          "crop_width": 210,
+          "crop_height": 31,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "village",
+          "region_type": "VILLAGE",
+          "annotation_id": "234232ac4be648b49d43835c23e1b85a",
+          "bbox_xywh": [
+            609,
+            297,
+            85,
+            31
+          ],
+          "normalized_bbox_xyxy": [
+            0.47578125,
+            0.309375,
+            0.5421875,
+            0.3416666666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_234232ac4be648b49d43835c23e1b85a.png",
+          "crop_width": 85,
+          "crop_height": 31,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "mandal",
+          "region_type": "MANDAL",
+          "annotation_id": "00168e7cdf4c410ea5d4d7630cb1c88d",
+          "bbox_xywh": [
+            856,
+            294,
+            86,
+            32
+          ],
+          "normalized_bbox_xyxy": [
+            0.66875,
+            0.30625,
+            0.7359375,
+            0.33958333333333335
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_00168e7cdf4c410ea5d4d7630cb1c88d.png",
+          "crop_width": 86,
+          "crop_height": 32,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_agent",
+          "region_type": "COMMISSION_AGENT",
+          "annotation_id": "fba2e41dfa204364aacde3548fbf10d9",
+          "bbox_xywh": [
+            298,
+            247,
+            272,
+            39
+          ],
+          "normalized_bbox_xyxy": [
+            0.2328125,
+            0.25729166666666664,
+            0.4453125,
+            0.29791666666666666
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_fba2e41dfa204364aacde3548fbf10d9.png",
+          "crop_width": 272,
+          "crop_height": 39,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "farmer_name",
+          "region_type": "FARMER_NAME",
+          "annotation_id": "24a24bf2cc314e81b4c579700d55dc5a",
+          "bbox_xywh": [
+            306,
+            286,
+            316,
+            39
+          ],
+          "normalized_bbox_xyxy": [
+            0.2390625,
+            0.29791666666666666,
+            0.4859375,
+            0.3385416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_24a24bf2cc314e81b4c579700d55dc5a.png",
+          "crop_width": 316,
+          "crop_height": 39,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "village",
+          "region_type": "VILLAGE",
+          "annotation_id": "26416e72288847659ec3d89640db055a",
+          "bbox_xywh": [
+            674,
+            281,
+            182,
+            43
+          ],
+          "normalized_bbox_xyxy": [
+            0.5265625,
+            0.29270833333333335,
+            0.66875,
+            0.3375
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_26416e72288847659ec3d89640db055a.png",
+          "crop_width": 182,
+          "crop_height": 43,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "mandal",
+          "region_type": "MANDAL",
+          "annotation_id": "fd115409cadc49e788ae9fde614ba8f9",
+          "bbox_xywh": [
+            931,
+            283,
+            133,
+            35
+          ],
+          "normalized_bbox_xyxy": [
+            0.72734375,
+            0.2947916666666667,
+            0.83125,
+            0.33125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_fd115409cadc49e788ae9fde614ba8f9.png",
+          "crop_width": 133,
+          "crop_height": 35,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "క రమ స ఖ య serial number",
+          "region_type": "క్రమ సంఖ్య(Serial Number)",
+          "annotation_id": "9395d79fdc2b4b67ada215718eb2429d",
+          "bbox_xywh": [
+            108,
+            329,
+            60,
+            128
+          ],
+          "normalized_bbox_xyxy": [
+            0.084375,
+            0.34270833333333334,
+            0.13125,
+            0.47604166666666664
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_9395d79fdc2b4b67ada215718eb2429d.png",
+          "crop_width": 60,
+          "crop_height": 128,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commodity",
+          "region_type": "COMMODITY",
+          "annotation_id": "8acd7b0c57d442e891394ee5a0c515cc",
+          "bbox_xywh": [
+            165,
+            338,
+            79,
+            95
+          ],
+          "normalized_bbox_xyxy": [
+            0.12890625,
+            0.35208333333333336,
+            0.190625,
+            0.4510416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_8acd7b0c57d442e891394ee5a0c515cc.png",
+          "crop_width": 79,
+          "crop_height": 95,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "buyer_name",
+          "region_type": "BUYER_NAME",
+          "annotation_id": "0c276d980d774c008097476886426a2e",
+          "bbox_xywh": [
+            249,
+            340,
+            147,
+            93
+          ],
+          "normalized_bbox_xyxy": [
+            0.19453125,
+            0.3541666666666667,
+            0.309375,
+            0.4510416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_0c276d980d774c008097476886426a2e.png",
+          "crop_width": 147,
+          "crop_height": 93,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "no_of_bags",
+          "region_type": "NO_OF_BAGS",
+          "annotation_id": "7fefaeda22804c078b672b96f9b36032",
+          "bbox_xywh": [
+            397,
+            382,
+            55,
+            56
+          ],
+          "normalized_bbox_xyxy": [
+            0.31015625,
+            0.39791666666666664,
+            0.353125,
+            0.45625
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_7fefaeda22804c078b672b96f9b36032.png",
+          "crop_width": 55,
+          "crop_height": 56,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "భర త క ల లక గ ర",
+          "region_type": "భర్తీ/కిలోలకీ.గ్రా",
+          "annotation_id": "10e4bdf78d444e7a8e3bd2a65381f94c",
+          "bbox_xywh": [
+            453,
+            384,
+            93,
+            60
+          ],
+          "normalized_bbox_xyxy": [
+            0.35390625,
+            0.4,
+            0.4265625,
+            0.4625
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_10e4bdf78d444e7a8e3bd2a65381f94c.png",
+          "crop_width": 93,
+          "crop_height": 60,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "net_weight",
+          "region_type": "NET_WEIGHT",
+          "annotation_id": "218bbe79fcbf4846911e093b0281c120",
+          "bbox_xywh": [
+            546,
+            339,
+            95,
+            96
+          ],
+          "normalized_bbox_xyxy": [
+            0.4265625,
+            0.353125,
+            0.50078125,
+            0.453125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_218bbe79fcbf4846911e093b0281c120.png",
+          "crop_width": 95,
+          "crop_height": 96,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "buyer_name",
+          "region_type": "BUYER_NAME",
+          "annotation_id": "9b939b9644244d758d23b4b22440e50a",
+          "bbox_xywh": [
+            643,
+            341,
+            62,
+            99
+          ],
+          "normalized_bbox_xyxy": [
+            0.50234375,
+            0.35520833333333335,
+            0.55078125,
+            0.4583333333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_9b939b9644244d758d23b4b22440e50a.png",
+          "crop_width": 62,
+          "crop_height": 99,
+          "text_type": "printed",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "క రమ స ఖ య serial number",
+          "region_type": "క్రమ సంఖ్య(Serial Number)",
+          "annotation_id": "838ed4b26d584c99b1cc04cf25c7cfaa",
+          "bbox_xywh": [
+            105,
+            458,
+            58,
+            268
+          ],
+          "normalized_bbox_xyxy": [
+            0.08203125,
+            0.47708333333333336,
+            0.12734375,
+            0.75625
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_838ed4b26d584c99b1cc04cf25c7cfaa.png",
+          "crop_width": 58,
+          "crop_height": 268,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commodity",
+          "region_type": "COMMODITY",
+          "annotation_id": "49b8081f5a924dcfaed3cd921ee70523",
+          "bbox_xywh": [
+            142,
+            449,
+            92,
+            268
+          ],
+          "normalized_bbox_xyxy": [
+            0.1109375,
+            0.46770833333333334,
+            0.1828125,
+            0.746875
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_49b8081f5a924dcfaed3cd921ee70523.png",
+          "crop_width": 92,
+          "crop_height": 268,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "buyer_name",
+          "region_type": "BUYER_NAME",
+          "annotation_id": "8a86d722d06d433d996427881bb190a2",
+          "bbox_xywh": [
+            221,
+            443,
+            172,
+            275
+          ],
+          "normalized_bbox_xyxy": [
+            0.17265625,
+            0.46145833333333336,
+            0.30703125,
+            0.7479166666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_8a86d722d06d433d996427881bb190a2.png",
+          "crop_width": 172,
+          "crop_height": 275,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "no_of_bags",
+          "region_type": "NO_OF_BAGS",
+          "annotation_id": "021ba476aeb84a9ab3e89f6a853aa8d3",
+          "bbox_xywh": [
+            389,
+            442,
+            57,
+            267
+          ],
+          "normalized_bbox_xyxy": [
+            0.30390625,
+            0.46041666666666664,
+            0.3484375,
+            0.7385416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_021ba476aeb84a9ab3e89f6a853aa8d3.png",
+          "crop_width": 57,
+          "crop_height": 267,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "భర త వస ల క ల ల క గ ర weight in kg",
+          "region_type": "భర్తీ/వసూలు కిలోల కీ.గ్రా.(Weight in kg)",
+          "annotation_id": "e037a3491ef54c5a92ffd6a7a370f1dd",
+          "bbox_xywh": [
+            448,
+            440,
+            95,
+            266
+          ],
+          "normalized_bbox_xyxy": [
+            0.35,
+            0.4583333333333333,
+            0.42421875,
+            0.7354166666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_e037a3491ef54c5a92ffd6a7a370f1dd.png",
+          "crop_width": 95,
+          "crop_height": 266,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "rate_per_qtl",
+          "region_type": "RATE_PER_QTL",
+          "annotation_id": "d736c6fd791f463fad65c0eff9874a1d",
+          "bbox_xywh": [
+            644,
+            445,
+            76,
+            282
+          ],
+          "normalized_bbox_xyxy": [
+            0.503125,
+            0.4635416666666667,
+            0.5625,
+            0.7572916666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_d736c6fd791f463fad65c0eff9874a1d.png",
+          "crop_width": 76,
+          "crop_height": 282,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_adti",
+          "region_type": "COMMISSION_ADTI",
+          "annotation_id": "a9e1025e4b1b48db9f1f769017ae7b7b",
+          "bbox_xywh": [
+            815,
+            455,
+            64,
+            35
+          ],
+          "normalized_bbox_xyxy": [
+            0.63671875,
+            0.4739583333333333,
+            0.68671875,
+            0.5104166666666666
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_a9e1025e4b1b48db9f1f769017ae7b7b.png",
+          "crop_width": 64,
+          "crop_height": 35,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "hamali",
+          "region_type": "HAMALI",
+          "annotation_id": "b23d042460554566bb672cb0a1a2bc36",
+          "bbox_xywh": [
+            814,
+            491,
+            76,
+            35
+          ],
+          "normalized_bbox_xyxy": [
+            0.6359375,
+            0.5114583333333333,
+            0.6953125,
+            0.5479166666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_b23d042460554566bb672cb0a1a2bc36.png",
+          "crop_width": 76,
+          "crop_height": 35,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "net_payable",
+          "region_type": "NET_PAYABLE",
+          "annotation_id": "36f68d75000243adb1e3701a6b2db646",
+          "bbox_xywh": [
+            876,
+            366,
+            97,
+            67
+          ],
+          "normalized_bbox_xyxy": [
+            0.684375,
+            0.38125,
+            0.76015625,
+            0.4510416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_36f68d75000243adb1e3701a6b2db646.png",
+          "crop_width": 97,
+          "crop_height": 67,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "మ త త",
+          "region_type": "మొత్తం",
+          "annotation_id": "1b87f5b22a954646a33e64c9c5698142",
+          "bbox_xywh": [
+            828,
+            647,
+            105,
+            38
+          ],
+          "normalized_bbox_xyxy": [
+            0.646875,
+            0.6739583333333333,
+            0.72890625,
+            0.7135416666666666
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_1b87f5b22a954646a33e64c9c5698142.png",
+          "crop_width": 105,
+          "crop_height": 38,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_adti",
+          "region_type": "COMMISSION_ADTI",
+          "annotation_id": "7278eaa5dbaf43b5a92a888627085de2",
+          "bbox_xywh": [
+            721,
+            437,
+            92,
+            50
+          ],
+          "normalized_bbox_xyxy": [
+            0.56328125,
+            0.4552083333333333,
+            0.63515625,
+            0.5072916666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_7278eaa5dbaf43b5a92a888627085de2.png",
+          "crop_width": 92,
+          "crop_height": 50,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "hamali",
+          "region_type": "HAMALI",
+          "annotation_id": "3c0b759f5c6f4d1bb16b17ef008e0405",
+          "bbox_xywh": [
+            705,
+            484,
+            112,
+            45
+          ],
+          "normalized_bbox_xyxy": [
+            0.55078125,
+            0.5041666666666667,
+            0.63828125,
+            0.5510416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_3c0b759f5c6f4d1bb16b17ef008e0405.png",
+          "crop_width": 112,
+          "crop_height": 45,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "మ త త",
+          "region_type": "మొత్తం",
+          "annotation_id": "b2a914a789554ced9422860b378ffa56",
+          "bbox_xywh": [
+            714,
+            644,
+            127,
+            53
+          ],
+          "normalized_bbox_xyxy": [
+            0.5578125,
+            0.6708333333333333,
+            0.65703125,
+            0.7260416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_b2a914a789554ced9422860b378ffa56.png",
+          "crop_width": 127,
+          "crop_height": 53,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "ఆస మ క చ ల ల చవలస నవ",
+          "region_type": "ఆసామికి చెల్లించవలసినవి",
+          "annotation_id": "4fdaf7e67fb94a04a791c7d11aeae4fb",
+          "bbox_xywh": [
+            882,
+            443,
+            124,
+            136
+          ],
+          "normalized_bbox_xyxy": [
+            0.6890625,
+            0.46145833333333336,
+            0.7859375,
+            0.603125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_4fdaf7e67fb94a04a791c7d11aeae4fb.png",
+          "crop_width": 124,
+          "crop_height": 136,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        }
+      ]
+    },
+    {
+      "source_image_id": "28c1c8f491354df291f84791ef4b2f7d",
+      "filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+      "width": 1280,
+      "height": 960,
+      "aspect_ratio": 1.3333333333333333,
+      "regions": [
+        {
+          "region_key": "market_committee_title",
+          "region_type": "MARKET_COMMITTEE_TITLE",
+          "annotation_id": "6ab343123e2540978c692f2120bfbf9a",
+          "bbox_xywh": [
+            247,
+            207,
+            531,
+            61
+          ],
+          "normalized_bbox_xyxy": [
+            0.19296875,
+            0.215625,
+            0.6078125,
+            0.2791666666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_6ab343123e2540978c692f2120bfbf9a.png",
+          "crop_width": 531,
+          "crop_height": 61,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "location_place",
+          "region_type": "LOCATION_PLACE",
+          "annotation_id": "ea3d3588e216446e9b8efef8110d5100",
+          "bbox_xywh": [
+            779,
+            205,
+            149,
+            63
+          ],
+          "normalized_bbox_xyxy": [
+            0.60859375,
+            0.21354166666666666,
+            0.725,
+            0.2791666666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_ea3d3588e216446e9b8efef8110d5100.png",
+          "crop_width": 149,
+          "crop_height": 63,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "book_no",
+          "region_type": "BOOK_NO",
+          "annotation_id": "13c972ce36cb408a8b874cbdf6a568fb",
+          "bbox_xywh": [
+            221,
+            269,
+            128,
+            40
+          ],
+          "normalized_bbox_xyxy": [
+            0.17265625,
+            0.28020833333333334,
+            0.27265625,
+            0.321875
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_13c972ce36cb408a8b874cbdf6a568fb.png",
+          "crop_width": 128,
+          "crop_height": 40,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "date",
+          "region_type": "DATE",
+          "annotation_id": "c1fd36da8bd64dff8fc9e7e06ac73e88",
+          "bbox_xywh": [
+            651,
+            271,
+            69,
+            29
+          ],
+          "normalized_bbox_xyxy": [
+            0.50859375,
+            0.28229166666666666,
+            0.5625,
+            0.3125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_c1fd36da8bd64dff8fc9e7e06ac73e88.png",
+          "crop_width": 69,
+          "crop_height": 29,
+          "text_type": "printed",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "slip_no",
+          "region_type": "SLIP_NO",
+          "annotation_id": "cceb690f7005419fbee47b5b56b4d995",
+          "bbox_xywh": [
+            902,
+            267,
+            64,
+            30
+          ],
+          "normalized_bbox_xyxy": [
+            0.7046875,
+            0.278125,
+            0.7546875,
+            0.309375
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_cceb690f7005419fbee47b5b56b4d995.png",
+          "crop_width": 64,
+          "crop_height": 30,
+          "text_type": "printed",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_agent",
+          "region_type": "COMMISSION_AGENT",
+          "annotation_id": "5015d95f551b4e8395c634ac202a32b0",
+          "bbox_xywh": [
+            127,
+            323,
+            187,
+            34
+          ],
+          "normalized_bbox_xyxy": [
+            0.09921875,
+            0.33645833333333336,
+            0.2453125,
+            0.371875
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_5015d95f551b4e8395c634ac202a32b0.png",
+          "crop_width": 187,
+          "crop_height": 34,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "farmer_name",
+          "region_type": "FARMER_NAME",
+          "annotation_id": "1eb06fb1f7a54ff2bb7db35cf30f822a",
+          "bbox_xywh": [
+            116,
+            360,
+            209,
+            40
+          ],
+          "normalized_bbox_xyxy": [
+            0.090625,
+            0.375,
+            0.25390625,
+            0.4166666666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_1eb06fb1f7a54ff2bb7db35cf30f822a.png",
+          "crop_width": 209,
+          "crop_height": 40,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "village",
+          "region_type": "VILLAGE",
+          "annotation_id": "0559c7342fae42c78a3633c09c5d7883",
+          "bbox_xywh": [
+            629,
+            362,
+            85,
+            33
+          ],
+          "normalized_bbox_xyxy": [
+            0.49140625,
+            0.3770833333333333,
+            0.5578125,
+            0.4114583333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_0559c7342fae42c78a3633c09c5d7883.png",
+          "crop_width": 85,
+          "crop_height": 33,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "mandal",
+          "region_type": "MANDAL",
+          "annotation_id": "b870095c9a64473bb39ae8d80d742240",
+          "bbox_xywh": [
+            884,
+            355,
+            88,
+            27
+          ],
+          "normalized_bbox_xyxy": [
+            0.690625,
+            0.3697916666666667,
+            0.759375,
+            0.39791666666666664
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_b870095c9a64473bb39ae8d80d742240.png",
+          "crop_width": 88,
+          "crop_height": 27,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "slip_no",
+          "region_type": "SLIP_NO",
+          "annotation_id": "de5d36f900c3480a88aff17cc70bf881",
+          "bbox_xywh": [
+            917,
+            245,
+            203,
+            84
+          ],
+          "normalized_bbox_xyxy": [
+            0.71640625,
+            0.2552083333333333,
+            0.875,
+            0.34270833333333334
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_de5d36f900c3480a88aff17cc70bf881.png",
+          "crop_width": 203,
+          "crop_height": 84,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "book_no",
+          "region_type": "BOOK_NO",
+          "annotation_id": "bfecea43511a45f59f282a2ac227f959",
+          "bbox_xywh": [
+            315,
+            255,
+            173,
+            68
+          ],
+          "normalized_bbox_xyxy": [
+            0.24609375,
+            0.265625,
+            0.38125,
+            0.33645833333333336
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_bfecea43511a45f59f282a2ac227f959.png",
+          "crop_width": 173,
+          "crop_height": 68,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "date",
+          "region_type": "DATE",
+          "annotation_id": "0c8b403ba95d4190af9b55b9c7744059",
+          "bbox_xywh": [
+            704,
+            261,
+            190,
+            35
+          ],
+          "normalized_bbox_xyxy": [
+            0.55,
+            0.271875,
+            0.6984375,
+            0.30833333333333335
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_0c8b403ba95d4190af9b55b9c7744059.png",
+          "crop_width": 190,
+          "crop_height": 35,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_agent",
+          "region_type": "COMMISSION_AGENT",
+          "annotation_id": "4175ac7f6c264e6abbb0a803a9c4aa7c",
+          "bbox_xywh": [
+            305,
+            316,
+            270,
+            35
+          ],
+          "normalized_bbox_xyxy": [
+            0.23828125,
+            0.32916666666666666,
+            0.44921875,
+            0.365625
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_4175ac7f6c264e6abbb0a803a9c4aa7c.png",
+          "crop_width": 270,
+          "crop_height": 35,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "farmer_name",
+          "region_type": "FARMER_NAME",
+          "annotation_id": "374f6efbf5574d8fa4e78d599006a2e5",
+          "bbox_xywh": [
+            323,
+            354,
+            311,
+            37
+          ],
+          "normalized_bbox_xyxy": [
+            0.25234375,
+            0.36875,
+            0.4953125,
+            0.40729166666666666
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_374f6efbf5574d8fa4e78d599006a2e5.png",
+          "crop_width": 311,
+          "crop_height": 37,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "village",
+          "region_type": "VILLAGE",
+          "annotation_id": "834deff81dbe4df7884d7efb75d76d78",
+          "bbox_xywh": [
+            718,
+            345,
+            163,
+            32
+          ],
+          "normalized_bbox_xyxy": [
+            0.5609375,
+            0.359375,
+            0.68828125,
+            0.3927083333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_834deff81dbe4df7884d7efb75d76d78.png",
+          "crop_width": 163,
+          "crop_height": 32,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "క రమ స ఖ య serial number",
+          "region_type": "క్రమ సంఖ్య(Serial Number)",
+          "annotation_id": "ad1b41c045324ae98d87e41efe67c35c",
+          "bbox_xywh": [
+            128,
+            407,
+            36,
+            100
+          ],
+          "normalized_bbox_xyxy": [
+            0.1,
+            0.4239583333333333,
+            0.128125,
+            0.528125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_ad1b41c045324ae98d87e41efe67c35c.png",
+          "crop_width": 36,
+          "crop_height": 100,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commodity",
+          "region_type": "COMMODITY",
+          "annotation_id": "bde81e32f55e488d87a00fb6a2310985",
+          "bbox_xywh": [
+            168,
+            409,
+            83,
+            98
+          ],
+          "normalized_bbox_xyxy": [
+            0.13125,
+            0.42604166666666665,
+            0.19609375,
+            0.528125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_bde81e32f55e488d87a00fb6a2310985.png",
+          "crop_width": 83,
+          "crop_height": 98,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "buyer_name",
+          "region_type": "BUYER_NAME",
+          "annotation_id": "67a5fa33e3134f7789ae7c4dc6967f9f",
+          "bbox_xywh": [
+            254,
+            409,
+            155,
+            95
+          ],
+          "normalized_bbox_xyxy": [
+            0.1984375,
+            0.42604166666666665,
+            0.31953125,
+            0.525
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_67a5fa33e3134f7789ae7c4dc6967f9f.png",
+          "crop_width": 155,
+          "crop_height": 95,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_agent",
+          "region_type": "COMMISSION_AGENT",
+          "annotation_id": "7d6ce7cc315f49e5aa5a369328260cab",
+          "bbox_xywh": [
+            411,
+            451,
+            57,
+            52
+          ],
+          "normalized_bbox_xyxy": [
+            0.32109375,
+            0.46979166666666666,
+            0.365625,
+            0.5239583333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_7d6ce7cc315f49e5aa5a369328260cab.png",
+          "crop_width": 57,
+          "crop_height": 52,
+          "text_type": "printed",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "భర త క గ ర",
+          "region_type": "భర్తీ/ కీ.గ్రా.",
+          "annotation_id": "dd01348099a245f09b26ba0d02f3bed8",
+          "bbox_xywh": [
+            467,
+            450,
+            92,
+            56
+          ],
+          "normalized_bbox_xyxy": [
+            0.36484375,
+            0.46875,
+            0.43671875,
+            0.5270833333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_dd01348099a245f09b26ba0d02f3bed8.png",
+          "crop_width": 92,
+          "crop_height": 56,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "net_weight",
+          "region_type": "NET_WEIGHT",
+          "annotation_id": "e3487f5cf750430aa637665a053066ae",
+          "bbox_xywh": [
+            560,
+            398,
+            104,
+            106
+          ],
+          "normalized_bbox_xyxy": [
+            0.4375,
+            0.41458333333333336,
+            0.51875,
+            0.525
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_e3487f5cf750430aa637665a053066ae.png",
+          "crop_width": 104,
+          "crop_height": 106,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "rate_per_qtl",
+          "region_type": "RATE_PER_QTL",
+          "annotation_id": "bd4143f08e65449e854cc276eff9c67a",
+          "bbox_xywh": [
+            669,
+            411,
+            54,
+            78
+          ],
+          "normalized_bbox_xyxy": [
+            0.52265625,
+            0.428125,
+            0.56484375,
+            0.509375
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_bd4143f08e65449e854cc276eff9c67a.png",
+          "crop_width": 54,
+          "crop_height": 78,
+          "text_type": "printed",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "total_deductions",
+          "region_type": "TOTAL_DEDUCTIONS",
+          "annotation_id": "c2e4530f10ff47d79ab59d3f68f86bc5",
+          "bbox_xywh": [
+            728,
+            413,
+            111,
+            79
+          ],
+          "normalized_bbox_xyxy": [
+            0.56875,
+            0.43020833333333336,
+            0.65546875,
+            0.5125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_c2e4530f10ff47d79ab59d3f68f86bc5.png",
+          "crop_width": 111,
+          "crop_height": 79,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_adti",
+          "region_type": "COMMISSION_ADTI",
+          "annotation_id": "3528b42eff0c4009968df4bcf54a639a",
+          "bbox_xywh": [
+            852,
+            528,
+            57,
+            30
+          ],
+          "normalized_bbox_xyxy": [
+            0.665625,
+            0.55,
+            0.71015625,
+            0.58125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_3528b42eff0c4009968df4bcf54a639a.png",
+          "crop_width": 57,
+          "crop_height": 30,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "hamali",
+          "region_type": "HAMALI",
+          "annotation_id": "d8cfba439d22411fb3ada1234b4c1d9d",
+          "bbox_xywh": [
+            850,
+            565,
+            72,
+            30
+          ],
+          "normalized_bbox_xyxy": [
+            0.6640625,
+            0.5885416666666666,
+            0.7203125,
+            0.6197916666666666
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_d8cfba439d22411fb3ada1234b4c1d9d.png",
+          "crop_width": 72,
+          "crop_height": 30,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "total_deductions",
+          "region_type": "TOTAL_DEDUCTIONS",
+          "annotation_id": "19cbfe8e1f9c4d92b515d0a07984c82f",
+          "bbox_xywh": [
+            868,
+            725,
+            79,
+            57
+          ],
+          "normalized_bbox_xyxy": [
+            0.678125,
+            0.7552083333333334,
+            0.73984375,
+            0.8145833333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_19cbfe8e1f9c4d92b515d0a07984c82f.png",
+          "crop_width": 79,
+          "crop_height": 57,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "ఆస మ క చ ల ల చవలస నవ amount payable to the owner seller",
+          "region_type": "ఆసామికి చెల్లించవలసినవి (Amount payable to the owner/seller)",
+          "annotation_id": "5cc4bc2e5b254c93bb6be04e2c113356",
+          "bbox_xywh": [
+            914,
+            423,
+            93,
+            83
+          ],
+          "normalized_bbox_xyxy": [
+            0.7140625,
+            0.440625,
+            0.78671875,
+            0.5270833333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_5cc4bc2e5b254c93bb6be04e2c113356.png",
+          "crop_width": 93,
+          "crop_height": 83,
+          "text_type": "printed",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commodity",
+          "region_type": "COMMODITY",
+          "annotation_id": "1646c1b83afa4b62a28483ac96b32eb7",
+          "bbox_xywh": [
+            162,
+            523,
+            75,
+            256
+          ],
+          "normalized_bbox_xyxy": [
+            0.1265625,
+            0.5447916666666667,
+            0.18515625,
+            0.8114583333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_1646c1b83afa4b62a28483ac96b32eb7.png",
+          "crop_width": 75,
+          "crop_height": 256,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "buyer_name",
+          "region_type": "BUYER_NAME",
+          "annotation_id": "e6c81e0e946941229f3f9912fda3e450",
+          "bbox_xywh": [
+            244,
+            516,
+            159,
+            281
+          ],
+          "normalized_bbox_xyxy": [
+            0.190625,
+            0.5375,
+            0.31484375,
+            0.8302083333333333
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_e6c81e0e946941229f3f9912fda3e450.png",
+          "crop_width": 159,
+          "crop_height": 281,
+          "text_type": "handwritten",
+          "language": "te",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "no_of_bags",
+          "region_type": "NO_OF_BAGS",
+          "annotation_id": "76f80a39a8cc4771af0acb23a4e112e0",
+          "bbox_xywh": [
+            403,
+            502,
+            79,
+            294
+          ],
+          "normalized_bbox_xyxy": [
+            0.31484375,
+            0.5229166666666667,
+            0.3765625,
+            0.8291666666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_76f80a39a8cc4771af0acb23a4e112e0.png",
+          "crop_width": 79,
+          "crop_height": 294,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "rate_per_qtl",
+          "region_type": "RATE_PER_QTL",
+          "annotation_id": "d50d2001da654a729b945021a53b15b4",
+          "bbox_xywh": [
+            664,
+            492,
+            68,
+            97
+          ],
+          "normalized_bbox_xyxy": [
+            0.51875,
+            0.5125,
+            0.571875,
+            0.6135416666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_d50d2001da654a729b945021a53b15b4.png",
+          "crop_width": 68,
+          "crop_height": 97,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "commission_adti",
+          "region_type": "COMMISSION_ADTI",
+          "annotation_id": "9ee8372eb1d04194944334340db3aac0",
+          "bbox_xywh": [
+            736,
+            503,
+            105,
+            34
+          ],
+          "normalized_bbox_xyxy": [
+            0.575,
+            0.5239583333333333,
+            0.65703125,
+            0.559375
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_9ee8372eb1d04194944334340db3aac0.png",
+          "crop_width": 105,
+          "crop_height": 34,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "hamali",
+          "region_type": "HAMALI",
+          "annotation_id": "c823e044ac5546edabd3896577821506",
+          "bbox_xywh": [
+            737,
+            528,
+            113,
+            94
+          ],
+          "normalized_bbox_xyxy": [
+            0.57578125,
+            0.55,
+            0.6640625,
+            0.6479166666666667
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_c823e044ac5546edabd3896577821506.png",
+          "crop_width": 113,
+          "crop_height": 94,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "మ త తమ",
+          "region_type": "మొత్తము",
+          "annotation_id": "a52d9a2789a04c7d8fd08332d92212bc",
+          "bbox_xywh": [
+            739,
+            704,
+            130,
+            76
+          ],
+          "normalized_bbox_xyxy": [
+            0.57734375,
+            0.7333333333333333,
+            0.67890625,
+            0.8125
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_a52d9a2789a04c7d8fd08332d92212bc.png",
+          "crop_width": 130,
+          "crop_height": 76,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        },
+        {
+          "region_key": "ఆస మ క చ ల ల చవలస నవ amount payable to the owner seller",
+          "region_type": "ఆసామికి చెల్లించవలసినవి Amount payable to the owner/seller",
+          "annotation_id": "36ad91fdbebc4a44bd0a25d29703fdd9",
+          "bbox_xywh": [
+            935,
+            713,
+            125,
+            64
+          ],
+          "normalized_bbox_xyxy": [
+            0.73046875,
+            0.7427083333333333,
+            0.828125,
+            0.809375
+          ],
+          "crop_path": "data_generation/annotated_crops/manual_36ad91fdbebc4a44bd0a25d29703fdd9.png",
+          "crop_width": 125,
+          "crop_height": 64,
+          "text_type": "digits",
+          "language": "digits",
+          "stability": "LOW_CONFIDENCE"
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "region_key": "market_committee_title",
+      "region_types": [
+        "MARKET_COMMITTEE_TITLE"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 2,
+      "normalized_bbox_mean_xyxy": [
+        0.182421875,
+        0.18645833333333334,
+        0.6,
+        0.2484375
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.171875,
+        0.15729166666666666,
+        0.5921875,
+        0.21770833333333334
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.19296875,
+        0.215625,
+        0.6078125,
+        0.2791666666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.010546874999999997,
+        0.029166666666666674,
+        0.0078125,
+        0.03072916666666667
+      ],
+      "median_pairwise_iou": 0.016332923145765687,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "80c61d0c665d4f17991e4067d5ec352a",
+        "6ab343123e2540978c692f2120bfbf9a"
+      ]
+    },
+    {
+      "region_key": "location_place",
+      "region_types": [
+        "LOCATION_PLACE"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 2,
+      "normalized_bbox_mean_xyxy": [
+        0.59765625,
+        0.18385416666666665,
+        0.709765625,
+        0.24635416666666665
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.58671875,
+        0.15416666666666667,
+        0.69453125,
+        0.21354166666666666
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.60859375,
+        0.21354166666666666,
+        0.725,
+        0.2791666666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.010937500000000044,
+        0.02968749999999999,
+        0.015234374999999967,
+        0.03281250000000001
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "895f78e725f0430f86a4d36d05b1f5cc",
+        "ea3d3588e216446e9b8efef8110d5100"
+      ]
+    },
+    {
+      "region_key": "date",
+      "region_types": [
+        "DATE"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.519921875,
+        0.2450520833333333,
+        0.61796875,
+        0.2830729166666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.4953125,
+        0.2125,
+        0.54921875,
+        0.25
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.55,
+        0.28229166666666666,
+        0.6984375,
+        0.3125
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.02045100017610694,
+        0.03224437901865395,
+        0.06362512662683865,
+        0.027681446463265084
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "2f6b8c42a12a4fe68537f1c3bc98f9b8",
+        "481fa38affb6407fa644c6e1fda6bd21",
+        "c1fd36da8bd64dff8fc9e7e06ac73e88",
+        "0c8b403ba95d4190af9b55b9c7744059"
+      ]
+    },
+    {
+      "region_key": "slip_no",
+      "region_types": [
+        "SLIP_NO"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.70390625,
+        0.2390625,
+        0.79375,
+        0.296875
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.6796875,
+        0.20625,
+        0.72734375,
+        0.25625
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.71640625,
+        0.278125,
+        0.875,
+        0.34270833333333334
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.014688746622627476,
+        0.029003449567345532,
+        0.05727953233240258,
+        0.03248430443648475
+      ],
+      "median_pairwise_iou": 0.0026570811008338187,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "bc4bbb3129834e60833328d526db3153",
+        "6fe869658ab14bb7909268c55e3937de",
+        "cceb690f7005419fbee47b5b56b4d995",
+        "de5d36f900c3480a88aff17cc70bf881"
+      ]
+    },
+    {
+      "region_key": "book_no",
+      "region_types": [
+        "BOOK_NO"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.203515625,
+        0.24661458333333333,
+        0.33046875,
+        0.2986979166666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.16640625,
+        0.21875,
+        0.26796875,
+        0.25625
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.24609375,
+        0.28020833333333334,
+        0.4,
+        0.33645833333333336
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.034594028764685314,
+        0.026825444864670932,
+        0.06054309464004753,
+        0.03204183429464173
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "82a8d609a8f14737a21ea49b15966b63",
+        "d1b23311367b4ce39bfa64e5c495c5a5",
+        "13c972ce36cb408a8b874cbdf6a568fb",
+        "bfecea43511a45f59f282a2ac227f959"
+      ]
+    },
+    {
+      "region_key": "license_no",
+      "region_types": [
+        "LICENSE_NO"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.434375,
+        0.27708333333333335,
+        0.509375,
+        0.3104166666666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.434375,
+        0.27708333333333335,
+        0.509375,
+        0.3104166666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.434375,
+        0.27708333333333335,
+        0.509375,
+        0.3104166666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "6a9ce10b55f24a2b958ef44a46adc453"
+      ]
+    },
+    {
+      "region_key": "commission_agent",
+      "region_types": [
+        "COMMISSION_AGENT"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 5,
+      "normalized_bbox_mean_xyxy": [
+        0.195625,
+        0.333125,
+        0.3484375,
+        0.3720833333333333
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.08671875,
+        0.25729166666666664,
+        0.23671875,
+        0.29791666666666666
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.32109375,
+        0.46979166666666666,
+        0.44921875,
+        0.5239583333333333
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.08955401652075691,
+        0.07494036981345754,
+        0.09268536115199098,
+        0.08204313736619832
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "26e05bb822c24164b2ca4454f91c2185",
+        "fba2e41dfa204364aacde3548fbf10d9",
+        "5015d95f551b4e8395c634ac202a32b0",
+        "4175ac7f6c264e6abbb0a803a9c4aa7c",
+        "7d6ce7cc315f49e5aa5a369328260cab"
+      ]
+    },
+    {
+      "region_key": "farmer_name",
+      "region_types": [
+        "FARMER_NAME"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.16738281249999998,
+        0.33828125,
+        0.3716796875,
+        0.3765625
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.0875,
+        0.29791666666666666,
+        0.2515625,
+        0.3385416666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.25234375,
+        0.375,
+        0.4953125,
+        0.4166666666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.07846872627625588,
+        0.03400507232129332,
+        0.11899437104063144,
+        0.035619060177335765
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "9b5908017eba42e495957e3b112e1223",
+        "24a24bf2cc314e81b4c579700d55dc5a",
+        "1eb06fb1f7a54ff2bb7db35cf30f822a",
+        "374f6efbf5574d8fa4e78d599006a2e5"
+      ]
+    },
+    {
+      "region_key": "village",
+      "region_types": [
+        "VILLAGE"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.513671875,
+        0.33463541666666663,
+        0.6142578125,
+        0.37083333333333335
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.47578125,
+        0.29270833333333335,
+        0.5421875,
+        0.3375
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.5609375,
+        0.3770833333333333,
+        0.68828125,
+        0.4114583333333333
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.03290769301798023,
+        0.03467651070920022,
+        0.06486345474325633,
+        0.03197933631876822
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "234232ac4be648b49d43835c23e1b85a",
+        "26416e72288847659ec3d89640db055a",
+        "0559c7342fae42c78a3633c09c5d7883",
+        "834deff81dbe4df7884d7efb75d76d78"
+      ]
+    },
+    {
+      "region_key": "mandal",
+      "region_types": [
+        "MANDAL"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 3,
+      "normalized_bbox_mean_xyxy": [
+        0.6955729166666668,
+        0.3236111111111111,
+        0.7755208333333333,
+        0.35625
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.66875,
+        0.2947916666666667,
+        0.7359375,
+        0.33125
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.72734375,
+        0.3697916666666667,
+        0.83125,
+        0.39791666666666664
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.024175308260989944,
+        0.03298793854587117,
+        0.04055148262462861,
+        0.029658550700086963
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "00168e7cdf4c410ea5d4d7630cb1c88d",
+        "fd115409cadc49e788ae9fde614ba8f9",
+        "b870095c9a64473bb39ae8d80d742240"
+      ]
+    },
+    {
+      "region_key": "క రమ స ఖ య serial number",
+      "region_types": [
+        "క్రమ సంఖ్య(Serial Number)"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 3,
+      "normalized_bbox_mean_xyxy": [
+        0.08880208333333334,
+        0.4145833333333333,
+        0.12890625,
+        0.5868055555555555
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.08203125,
+        0.34270833333333334,
+        0.12734375,
+        0.47604166666666664
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.1,
+        0.47708333333333336,
+        0.13125,
+        0.75625
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.007975725432871644,
+        0.05525744670781186,
+        0.0016876928902103828,
+        0.12168739517740419
+      ],
+      "median_pairwise_iou": 0.1441363187064189,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "9395d79fdc2b4b67ada215718eb2429d",
+        "838ed4b26d584c99b1cc04cf25c7cfaa",
+        "ad1b41c045324ae98d87e41efe67c35c"
+      ]
+    },
+    {
+      "region_key": "commodity",
+      "region_types": [
+        "COMMODITY"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.1244140625,
+        0.44765625,
+        0.18867187500000002,
+        0.6343749999999999
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.1109375,
+        0.35208333333333336,
+        0.1828125,
+        0.4510416666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.13125,
+        0.5447916666666667,
+        0.19609375,
+        0.8114583333333333
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.007955239005631371,
+        0.06971145499460815,
+        0.005137869702330438,
+        0.14909303350220252
+      ],
+      "median_pairwise_iou": 0.13210179709816322,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "8acd7b0c57d442e891394ee5a0c515cc",
+        "49b8081f5a924dcfaed3cd921ee70523",
+        "bde81e32f55e488d87a00fb6a2310985",
+        "1646c1b83afa4b62a28483ac96b32eb7"
+      ]
+    },
+    {
+      "region_key": "buyer_name",
+      "region_types": [
+        "BUYER_NAME"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 5,
+      "normalized_bbox_mean_xyxy": [
+        0.25171875,
+        0.426875,
+        0.3603124999999999,
+        0.6024999999999999
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.17265625,
+        0.3541666666666667,
+        0.30703125,
+        0.4510416666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.50234375,
+        0.5375,
+        0.55078125,
+        0.8302083333333333
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.12562286223305452,
+        0.0690756177838622,
+        0.09533350178452485,
+        0.15666971406610647
+      ],
+      "median_pairwise_iou": 0.06819273251160564,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "0c276d980d774c008097476886426a2e",
+        "9b939b9644244d758d23b4b22440e50a",
+        "8a86d722d06d433d996427881bb190a2",
+        "67a5fa33e3134f7789ae7c4dc6967f9f",
+        "e6c81e0e946941229f3f9912fda3e450"
+      ]
+    },
+    {
+      "region_key": "no_of_bags",
+      "region_types": [
+        "NO_OF_BAGS"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 3,
+      "normalized_bbox_mean_xyxy": [
+        0.30963541666666666,
+        0.4604166666666667,
+        0.359375,
+        0.6746527777777778
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.30390625,
+        0.39791666666666664,
+        0.3484375,
+        0.45625
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.31484375,
+        0.5229166666666667,
+        0.3765625,
+        0.8291666666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.004480377743251365,
+        0.0510310363079829,
+        0.012303137303143459,
+        0.1588039727925324
+      ],
+      "median_pairwise_iou": 0.15063972380178717,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "7fefaeda22804c078b672b96f9b36032",
+        "021ba476aeb84a9ab3e89f6a853aa8d3",
+        "76f80a39a8cc4771af0acb23a4e112e0"
+      ]
+    },
+    {
+      "region_key": "భర త క ల లక గ ర",
+      "region_types": [
+        "భర్తీ/కిలోలకీ.గ్రా"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.35390625,
+        0.4,
+        0.4265625,
+        0.4625
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.35390625,
+        0.4,
+        0.4265625,
+        0.4625
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.35390625,
+        0.4,
+        0.4265625,
+        0.4625
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "10e4bdf78d444e7a8e3bd2a65381f94c"
+      ]
+    },
+    {
+      "region_key": "net_weight",
+      "region_types": [
+        "NET_WEIGHT"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 2,
+      "normalized_bbox_mean_xyxy": [
+        0.43203125,
+        0.3838541666666667,
+        0.509765625,
+        0.4890625
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.4265625,
+        0.353125,
+        0.50078125,
+        0.453125
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.4375,
+        0.41458333333333336,
+        0.51875,
+        0.525
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0054687499999999944,
+        0.03072916666666667,
+        0.008984375000000044,
+        0.03593750000000001
+      ],
+      "median_pairwise_iou": 0.1747827608327985,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "218bbe79fcbf4846911e093b0281c120",
+        "e3487f5cf750430aa637665a053066ae"
+      ]
+    },
+    {
+      "region_key": "భర త వస ల క ల ల క గ ర weight in kg",
+      "region_types": [
+        "భర్తీ/వసూలు కిలోల కీ.గ్రా.(Weight in kg)"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.35,
+        0.4583333333333333,
+        0.42421875,
+        0.7354166666666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.35,
+        0.4583333333333333,
+        0.42421875,
+        0.7354166666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.35,
+        0.4583333333333333,
+        0.42421875,
+        0.7354166666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "e037a3491ef54c5a92ffd6a7a370f1dd"
+      ]
+    },
+    {
+      "region_key": "rate_per_qtl",
+      "region_types": [
+        "RATE_PER_QTL"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 3,
+      "normalized_bbox_mean_xyxy": [
+        0.51484375,
+        0.4680555555555555,
+        0.56640625,
+        0.626736111111111
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.503125,
+        0.428125,
+        0.5625,
+        0.509375
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.52265625,
+        0.5125,
+        0.571875,
+        0.7572916666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.008438464451051902,
+        0.03459351144290814,
+        0.003983608994994376,
+        0.10164066911076466
+      ],
+      "median_pairwise_iou": 0.16814698312839574,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "d736c6fd791f463fad65c0eff9874a1d",
+        "bd4143f08e65449e854cc276eff9c67a",
+        "d50d2001da654a729b945021a53b15b4"
+      ]
+    },
+    {
+      "region_key": "commission_adti",
+      "region_types": [
+        "COMMISSION_ADTI"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.61015625,
+        0.50078125,
+        0.6722656250000001,
+        0.5395833333333333
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.56328125,
+        0.4552083333333333,
+        0.63515625,
+        0.5072916666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.665625,
+        0.55,
+        0.71015625,
+        0.58125
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.04247227381443985,
+        0.037934226416972944,
+        0.02852097552542474,
+        0.03170673178171756
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "a9e1025e4b1b48db9f1f769017ae7b7b",
+        "7278eaa5dbaf43b5a92a888627085de2",
+        "3528b42eff0c4009968df4bcf54a639a",
+        "9ee8372eb1d04194944334340db3aac0"
+      ]
+    },
+    {
+      "region_key": "hamali",
+      "region_types": [
+        "HAMALI"
+      ],
+      "source_image_count": 2,
+      "annotation_count": 4,
+      "normalized_bbox_mean_xyxy": [
+        0.606640625,
+        0.5385416666666667,
+        0.6794921875,
+        0.5916666666666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.55078125,
+        0.5041666666666667,
+        0.63828125,
+        0.5479166666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.6640625,
+        0.5885416666666666,
+        0.7203125,
+        0.6479166666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.045354573678027504,
+        0.03371365069308803,
+        0.03103625632293574,
+        0.04335761539222377
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "b23d042460554566bb672cb0a1a2bc36",
+        "3c0b759f5c6f4d1bb16b17ef008e0405",
+        "d8cfba439d22411fb3ada1234b4c1d9d",
+        "c823e044ac5546edabd3896577821506"
+      ]
+    },
+    {
+      "region_key": "net_payable",
+      "region_types": [
+        "NET_PAYABLE"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.684375,
+        0.38125,
+        0.76015625,
+        0.4510416666666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.684375,
+        0.38125,
+        0.76015625,
+        0.4510416666666667
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.684375,
+        0.38125,
+        0.76015625,
+        0.4510416666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "36f68d75000243adb1e3701a6b2db646"
+      ]
+    },
+    {
+      "region_key": "మ త త",
+      "region_types": [
+        "మొత్తం"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 2,
+      "normalized_bbox_mean_xyxy": [
+        0.60234375,
+        0.6723958333333333,
+        0.6929687499999999,
+        0.7197916666666666
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.5578125,
+        0.6708333333333333,
+        0.65703125,
+        0.7135416666666666
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.646875,
+        0.6739583333333333,
+        0.72890625,
+        0.7260416666666667
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.04453124999999997,
+        0.0015625000000000222,
+        0.03593750000000001,
+        0.006250000000000033
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "1b87f5b22a954646a33e64c9c5698142",
+        "b2a914a789554ced9422860b378ffa56"
+      ]
+    },
+    {
+      "region_key": "ఆస మ క చ ల ల చవలస నవ",
+      "region_types": [
+        "ఆసామికి చెల్లించవలసినవి"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.6890625,
+        0.46145833333333336,
+        0.7859375,
+        0.603125
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.6890625,
+        0.46145833333333336,
+        0.7859375,
+        0.603125
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.6890625,
+        0.46145833333333336,
+        0.7859375,
+        0.603125
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "4fdaf7e67fb94a04a791c7d11aeae4fb"
+      ]
+    },
+    {
+      "region_key": "భర త క గ ర",
+      "region_types": [
+        "భర్తీ/ కీ.గ్రా."
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.36484375,
+        0.46875,
+        0.43671875,
+        0.5270833333333333
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.36484375,
+        0.46875,
+        0.43671875,
+        0.5270833333333333
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.36484375,
+        0.46875,
+        0.43671875,
+        0.5270833333333333
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "dd01348099a245f09b26ba0d02f3bed8"
+      ]
+    },
+    {
+      "region_key": "total_deductions",
+      "region_types": [
+        "TOTAL_DEDUCTIONS"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 2,
+      "normalized_bbox_mean_xyxy": [
+        0.6234375,
+        0.5927083333333334,
+        0.6976562500000001,
+        0.6635416666666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.56875,
+        0.43020833333333336,
+        0.65546875,
+        0.5125
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.678125,
+        0.7552083333333334,
+        0.73984375,
+        0.8145833333333333
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0546875,
+        0.1625,
+        0.04218749999999999,
+        0.15104166666666669
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "c2e4530f10ff47d79ab59d3f68f86bc5",
+        "19cbfe8e1f9c4d92b515d0a07984c82f"
+      ]
+    },
+    {
+      "region_key": "ఆస మ క చ ల ల చవలస నవ amount payable to the owner seller",
+      "region_types": [
+        "ఆసామికి చెల్లించవలసినవి (Amount payable to the owner/seller)",
+        "ఆసామికి చెల్లించవలసినవి Amount payable to the owner/seller"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 2,
+      "normalized_bbox_mean_xyxy": [
+        0.722265625,
+        0.5916666666666667,
+        0.807421875,
+        0.6682291666666667
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.7140625,
+        0.440625,
+        0.78671875,
+        0.5270833333333333
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.73046875,
+        0.7427083333333333,
+        0.828125,
+        0.809375
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.008203124999999978,
+        0.15104166666666666,
+        0.02070312499999999,
+        0.1411458333333333
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "5cc4bc2e5b254c93bb6be04e2c113356",
+        "36ad91fdbebc4a44bd0a25d29703fdd9"
+      ]
+    },
+    {
+      "region_key": "మ త తమ",
+      "region_types": [
+        "మొత్తము"
+      ],
+      "source_image_count": 1,
+      "annotation_count": 1,
+      "normalized_bbox_mean_xyxy": [
+        0.57734375,
+        0.7333333333333333,
+        0.67890625,
+        0.8125
+      ],
+      "normalized_bbox_min_xyxy": [
+        0.57734375,
+        0.7333333333333333,
+        0.67890625,
+        0.8125
+      ],
+      "normalized_bbox_max_xyxy": [
+        0.57734375,
+        0.7333333333333333,
+        0.67890625,
+        0.8125
+      ],
+      "normalized_bbox_std_xyxy": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_pairwise_iou": 0.0,
+      "stability": "LOW_CONFIDENCE",
+      "source_annotation_ids": [
+        "a52d9a2789a04c7d8fd08332d92212bc"
+      ]
+    }
+  ],
+  "transfer_warning": "Do not reuse boxes from one source unless the new image aligns strongly to that specific source and the region stability permits transfer."
+}

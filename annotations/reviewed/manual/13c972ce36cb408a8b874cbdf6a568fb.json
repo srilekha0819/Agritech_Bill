@@ -1,0 +1,31 @@
+{
+  "id": "13c972ce36cb408a8b874cbdf6a568fb",
+  "source_image": "28c1c8f491354df291f84791ef4b2f7d",
+  "bill_group_id": "WhatsApp Image 2026-09-17 at 4.09.23 PM (1)",
+  "source_filename": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    221,
+    269,
+    128,
+    40
+  ],
+  "bbox_normalized": [
+    0.17265625,
+    0.28020833333333334,
+    0.1,
+    0.041666666666666664
+  ],
+  "field_name": "BOOK_NO",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\13c972ce36cb408a8b874cbdf6a568fb.png",
+  "text": "పుస్తకము నెం.",
+  "translated_text": "Book No.",
+  "type": "printed",
+  "language": "te",
+  "annotation_source": "manual",
+  "status": "APPROVED",
+  "rotation_applied": 270,
+  "review_status": "APPROVED"
+}

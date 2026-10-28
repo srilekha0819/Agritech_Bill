@@ -1,0 +1,25 @@
+{
+  "id": "7722c2d1433b47589a4b4e1e8f7eb8a8",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.25_PM",
+  "image_width": 1280,
+  "image_height": 960,
+  "bbox": [
+    828,
+    647,
+    105,
+    38
+  ],
+  "field_name": "మొత్తం",
+  "field_key": "మ త త",
+  "crop_path": "annotations/crops/handwritten/hw_WhatsApp_Image_2026-09-17_at_4.09.25_PM_13_7722c2d1.png",
+  "text": "",
+  "type": "digits",
+  "language": "digits",
+  "annotation_source": "auto_crop_homography",
+  "status": "PENDING_TRANSCRIPTION",
+  "rotation_applied": 270,
+  "alignment_inliers": 4645,
+  "reference_source": "upright_upright_WhatsApp Image 2026-09-17 at 4.09.25 PM.jpeg"
+}

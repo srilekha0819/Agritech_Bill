@@ -1,0 +1,26 @@
+{
+  "id": "bf02e157e15d48af8f589ee8b9f86641",
+  "source_image": "WhatsApp Image 2026-09-17 at 4.09.02 PM.jpeg",
+  "source_filename": "WhatsApp Image 2026-09-17 at 4.09.02 PM.jpeg",
+  "bill_group_id": "WhatsApp_Image_2026-09-17_at_4.09.02_PM",
+  "image_width": 1600,
+  "image_height": 1200,
+  "bbox": [
+    353,
+    864,
+    92,
+    45
+  ],
+  "field_name": "SLIP_NO",
+  "field_category": "custom",
+  "crop_path": "annotations\\crops\\auto_WhatsApp_Image_2026-09-17_at_4.09.02_PM_16_bf02e157.png",
+  "text": "నెం.",
+  "translated_text": "No.",
+  "type": "printed",
+  "language": "digits",
+  "annotation_source": "auto_reference_transfer",
+  "status": "APPROVED",
+  "rotation_applied": 90,
+  "alignment_inliers": 462,
+  "reference_source": "upright_WhatsApp Image 2026-09-17 at 4.09.23 PM (1).jpeg"
+}
